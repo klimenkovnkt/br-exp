@@ -1,0 +1,77 @@
+12.1477 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+14.1971 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C40345C100>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C40345C0A0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C403407F40>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001C4037EC0A0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.1972 	EXP 	window1: mouseVisible = True
+14.1973 	EXP 	window1: backgroundImage = ''
+14.1973 	EXP 	window1: backgroundFit = 'none'
+14.1998 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.1999 	EXP 	window1: recordFrameIntervals = False
+14.3633 	EXP 	window1: recordFrameIntervals = True
+14.5472 	EXP 	Screen (0) actual frame rate measured at 59.84Hz
+14.5473 	EXP 	window1: recordFrameIntervals = False
+14.5474 	EXP 	window1: mouseVisible = False
+18.5086 	EXP 	con_exp: status = STARTED
+18.5093 	EXP 	window1: mouseVisible = True
+18.6705 	EXP 	Created text_instr_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_instr_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.6707 	EXP 	window1: mouseVisible = True
+18.6725 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.6726 	EXP 	window1: mouseVisible = True
+18.6836 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.6838 	EXP 	window1: mouseVisible = True
+18.7140 	EXP 	Created image_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+18.7142 	EXP 	window1: mouseVisible = True
+18.7159 	EXP 	Created text_label_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_label_1', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.7160 	EXP 	window1: mouseVisible = True
+18.7251 	EXP 	Created text_ans_quest_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_ans_quest_right', opacity=1.0, ori=0.0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='стрелка вправо - ответ "да"', units='height', win=Window(...), wrapWidth=1)
+18.7254 	EXP 	window1: mouseVisible = True
+18.7317 	EXP 	Created text_ans_quest_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_ans_quest_left', opacity=1.0, ori=0.0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='стрелка влево - ответ "нет"', units='height', win=Window(...), wrapWidth=1)
+0.0158 	EXP 	text_instr_1: autoDraw = True
+2.2493 	EXP 	Imported C:/Users/Admin/Desktop/сайкопай/brainrotexp/con_stim.xlsx as conditions, 24 conditions, 5 params
+2.2501 	EXP 	Created sequence: random, trialTypes=24, nReps=1, seed=None
+2.2504 	EXP 	New trial (rep=0, index=0): {'ImageFile': 'img18.png', 'LabelText': 'РУБИНОРО-ДЕЛЬФИНОРО', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer': None}
+2.2678 	EXP 	text_instr_1: autoDraw = False
+2.2678 	EXP 	text: height = 0.05
+2.2678 	EXP 	text: height = 0.05
+2.2678 	EXP 	text: height = 0.05
+2.2678 	EXP 	text: text = 'Ассоциируете ли Вы себя с этим словом?'
+2.2678 	EXP 	text: autoDraw = True
+2.2678 	EXP 	text_2: autoDraw = True
+4.4604 	EXP 	text: autoDraw = False
+4.4604 	EXP 	text_2: autoDraw = False
+4.4604 	EXP 	image_1: image = 'img18.png'
+4.4604 	EXP 	text_label_1: height = 0.05
+4.4604 	EXP 	text_label_1: height = 0.05
+4.4604 	EXP 	text_label_1: height = 0.05
+4.4604 	EXP 	text_label_1: text = 'РУБИНОРО-ДЕЛЬФИНОРО'
+4.4604 	EXP 	image_1: autoDraw = True
+4.4604 	EXP 	text_label_1: autoDraw = True
+6.8983 	EXP 	image_1: autoDraw = False
+6.8983 	EXP 	text_label_1: autoDraw = False
+6.8983 	EXP 	text_ans_quest_right: autoDraw = True
+6.8983 	EXP 	text_ans_quest_left: autoDraw = True
+6.9679 	EXP 	New trial (rep=0, index=1): {'ImageFile': 'img22.png', 'LabelText': 'ФАСТФУДОРО-ВЕРБЛЮДОРО', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer': 'right'}
+6.9839 	EXP 	text_ans_quest_right: autoDraw = False
+6.9839 	EXP 	text_ans_quest_left: autoDraw = False
+6.9839 	EXP 	text: height = 0.05
+6.9839 	EXP 	text: height = 0.05
+6.9839 	EXP 	text: height = 0.05
+6.9839 	EXP 	text: text = 'Слово написано большими буквами?'
+6.9839 	EXP 	text: autoDraw = True
+6.9839 	EXP 	text_2: autoDraw = True
+12.8710 	EXP 	text: autoDraw = False
+12.8710 	EXP 	text_2: autoDraw = False
+12.8710 	EXP 	image_1: image = 'img22.png'
+12.8710 	EXP 	text_label_1: height = 0.05
+12.8710 	EXP 	text_label_1: height = 0.05
+12.8710 	EXP 	text_label_1: height = 0.05
+12.8710 	EXP 	text_label_1: text = 'ФАСТФУДОРО-ВЕРБЛЮДОРО'
+12.8710 	EXP 	image_1: autoDraw = True
+12.8710 	EXP 	text_label_1: autoDraw = True
+15.3650 	EXP 	image_1: autoDraw = False
+15.3650 	EXP 	text_label_1: autoDraw = False
+15.3650 	EXP 	text_ans_quest_right: autoDraw = True
+15.3650 	EXP 	text_ans_quest_left: autoDraw = True
+27.4826 	EXP 	con_exp: status = STOPPED
+27.4983 	EXP 	text_ans_quest_right: autoDraw = False
+27.4983 	EXP 	text_ans_quest_left: autoDraw = False
+27.4984 	EXP 	con_exp: status = STOPPED
+27.5590 	EXP 	window1: mouseVisible = True
