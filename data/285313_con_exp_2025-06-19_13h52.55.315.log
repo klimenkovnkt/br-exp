@@ -1,0 +1,1391 @@
+4.7619 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+4.7628 	INFO 	Loaded monitor calibration from ['2022_11_15 11:54']
+4.9570 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9ed20b5370>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9ed20b5310>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f9ed2098d90>, multiSample=False, name='window1', numSamples=2, pos=[335.0, 178.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.9570 	EXP 	window1: backgroundImage = ''
+4.9570 	EXP 	window1: backgroundFit = 'none'
+4.9681 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9687 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9691 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9697 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9703 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9705 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9709 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9715 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9718 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9720 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9725 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9729 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9733 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9737 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9741 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9745 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9750 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9752 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9754 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9761 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9763 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9766 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.9794 	DEBUG 	Upload of Texture Font fontname complete
+4.9835 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9841 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9847 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9848 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.9866 	DEBUG 	Upload of Texture Font fontname complete
+4.9878 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.9878 	EXP 	window1: recordFrameIntervals = False
+5.1461 	EXP 	window1: recordFrameIntervals = True
+5.9797 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+5.9883 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9889 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9900 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9913 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9925 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9936 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9941 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9951 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9963 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9973 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9976 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.0008 	DEBUG 	Upload of Texture Font fontname complete
+6.0184 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+7.8482 	INFO 	keyboard.Keyboard is using iohub backend.
+7.8482 	INFO 	keyboard.Keyboard is using iohub backend.
+7.8483 	INFO 	keyboard.Keyboard is using iohub backend.
+7.8483 	INFO 	keyboard.Keyboard is using iohub backend.
+7.8483 	INFO 	keyboard.Keyboard is using iohub backend.
+7.8483 	INFO 	keyboard.Keyboard is using iohub backend.
+7.8483 	EXP 	con_exp: status = STARTED
+7.8918 	EXP 	Created text_instr_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_instr_1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.8923 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.8948 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.9097 	EXP 	Created image_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.4, 0.4]), texRes=128.0, units='height', win=Window(...))
+7.9102 	EXP 	Created text_label_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_label_1', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.9187 	EXP 	Created text_ans_quest_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_ans_quest_right', opacity=1, ori=0.0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='стрелка вправо - ответ "да"', units='height', win=Window(...), wrapWidth=1)
+7.9206 	EXP 	Created text_ans_quest_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_ans_quest_left', opacity=1, ori=0.0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='стрелка влево - ответ "нет"', units='height', win=Window(...), wrapWidth=1)
+7.9295 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.9325 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.4, 0.4]), texRes=128.0, units='height', win=Window(...))
+7.9329 	EXP 	Created text_label_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_label_2', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.9389 	EXP 	Created text_instr_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='text_instr_3', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.9475 	EXP 	Created text_fin = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_fin', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0174 	EXP 	text_instr_1: autoDraw = True
+0.4992 	INFO 	Keyboard events cleared
+4.1610 	WARNING 	t of last frame was 22.98ms (=1/43)
+4.1820 	WARNING 	t of last frame was 20.96ms (=1/47)
+4.2791 	DATA 	Keypress: right
+4.2831 	WARNING 	t of last frame was 101.12ms (=1/9)
+8.1788 	DEBUG 	Read excel file with openpyxl: incon_stim.xlsx
+8.1810 	EXP 	Imported incon_stim.xlsx as conditions, 24 conditions, 5 params
+8.1827 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'ImageFile': 'img24.png', 'LabelText': 'ФАРИМОРА-САРИМОРА', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+8.1947 	DATA 	Keypress: space
+8.1979 	WARNING 	t of last frame was 32.59ms (=1/30)
+8.1979 	EXP 	text_instr_1: autoDraw = False
+8.1979 	EXP 	text: height = 0.05
+8.1979 	EXP 	text: height = 0.05
+8.1979 	EXP 	text: height = 0.05
+8.1979 	EXP 	text: text = 'Ассоциируете ли Вы себя с этим словом?'
+8.1979 	EXP 	text: autoDraw = True
+8.1979 	EXP 	text_2: autoDraw = True
+8.6654 	INFO 	Keyboard events cleared
+16.4900 	DATA 	Keypress: space
+16.4928 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+16.4927 	EXP 	text: autoDraw = False
+16.4927 	EXP 	text_2: autoDraw = False
+16.4927 	EXP 	image_1: image = 'img24.png'
+16.4927 	EXP 	text_label_1: height = 0.05
+16.4927 	EXP 	text_label_1: height = 0.05
+16.4927 	EXP 	text_label_1: height = 0.05
+16.4927 	EXP 	text_label_1: text = 'ФАРИМОРА-САРИМОРА'
+16.4927 	EXP 	image_1: autoDraw = True
+16.4927 	EXP 	text_label_1: autoDraw = True
+18.6281 	DATA 	Keypress: right
+18.7987 	INFO 	Keyboard events cleared
+18.7985 	EXP 	image_1: autoDraw = False
+18.7985 	EXP 	text_label_1: autoDraw = False
+18.7985 	EXP 	text_ans_quest_right: autoDraw = True
+18.7985 	EXP 	text_ans_quest_left: autoDraw = True
+22.5688 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'ImageFile': 'img22.png', 'LabelText': 'ВАЛЕНОНЕ-МАЛЕНОНЕ', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+22.5736 	DATA 	Keypress: right
+22.5773 	EXP 	text_ans_quest_right: autoDraw = False
+22.5773 	EXP 	text_ans_quest_left: autoDraw = False
+22.5773 	EXP 	text: height = 0.05
+22.5773 	EXP 	text: height = 0.05
+22.5773 	EXP 	text: height = 0.05
+22.5773 	EXP 	text: text = 'Слово написано большими буквами?'
+22.5773 	EXP 	text: autoDraw = True
+22.5773 	EXP 	text_2: autoDraw = True
+23.0655 	INFO 	Keyboard events cleared
+27.8572 	DATA 	Keypress: space
+27.8598 	EXP 	text: autoDraw = False
+27.8598 	EXP 	text_2: autoDraw = False
+27.8598 	EXP 	image_1: image = 'img22.png'
+27.8598 	EXP 	text_label_1: height = 0.05
+27.8598 	EXP 	text_label_1: height = 0.05
+27.8598 	EXP 	text_label_1: height = 0.05
+27.8598 	EXP 	text_label_1: text = 'ВАЛЕНОНЕ-МАЛЕНОНЕ'
+27.8598 	EXP 	image_1: autoDraw = True
+27.8598 	EXP 	text_label_1: autoDraw = True
+30.2586 	DATA 	Keypress: space
+30.3489 	INFO 	Keyboard events cleared
+30.3487 	EXP 	image_1: autoDraw = False
+30.3487 	EXP 	text_label_1: autoDraw = False
+30.3487 	EXP 	text_ans_quest_right: autoDraw = True
+30.3487 	EXP 	text_ans_quest_left: autoDraw = True
+31.1347 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'ImageFile': 'img2.png', 'LabelText': 'ПАЛЕВИНО-ТАЛЕВИНО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с "облакино"?', 'CorrectAnswer_congr': 'right', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+31.1403 	DATA 	Keypress: right
+31.1434 	EXP 	text_ans_quest_right: autoDraw = False
+31.1434 	EXP 	text_ans_quest_left: autoDraw = False
+31.1434 	EXP 	text: height = 0.05
+31.1434 	EXP 	text: height = 0.05
+31.1434 	EXP 	text: height = 0.05
+31.1434 	EXP 	text: text = 'Слово рифмуется с "облакино"?'
+31.1434 	EXP 	text: autoDraw = True
+31.1434 	EXP 	text_2: autoDraw = True
+31.6320 	INFO 	Keyboard events cleared
+33.7040 	DATA 	Keypress: space
+33.7067 	EXP 	text: autoDraw = False
+33.7067 	EXP 	text_2: autoDraw = False
+33.7067 	EXP 	image_1: image = 'img2.png'
+33.7067 	EXP 	text_label_1: height = 0.05
+33.7067 	EXP 	text_label_1: height = 0.05
+33.7067 	EXP 	text_label_1: height = 0.05
+33.7067 	EXP 	text_label_1: text = 'ПАЛЕВИНО-ТАЛЕВИНО'
+33.7067 	EXP 	image_1: autoDraw = True
+33.7067 	EXP 	text_label_1: autoDraw = True
+35.5089 	DATA 	Keypress: right
+35.9532 	DATA 	Keypress: space
+36.1988 	INFO 	Keyboard events cleared
+36.1986 	EXP 	image_1: autoDraw = False
+36.1986 	EXP 	text_label_1: autoDraw = False
+36.1986 	EXP 	text_ans_quest_right: autoDraw = True
+36.1986 	EXP 	text_ans_quest_left: autoDraw = True
+36.9015 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'ImageFile': 'img4.png', 'LabelText': 'СИЛЬВЕСТЕТТО-ДИЛЬВЕСТЕТТО', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+36.9055 	DATA 	Keypress: right
+36.9087 	EXP 	text_ans_quest_right: autoDraw = False
+36.9087 	EXP 	text_ans_quest_left: autoDraw = False
+36.9087 	EXP 	text: height = 0.05
+36.9087 	EXP 	text: height = 0.05
+36.9087 	EXP 	text: height = 0.05
+36.9087 	EXP 	text: text = 'Слово написано большими буквами?'
+36.9087 	EXP 	text: autoDraw = True
+36.9087 	EXP 	text_2: autoDraw = True
+37.3987 	INFO 	Keyboard events cleared
+39.6046 	DATA 	Keypress: space
+39.6072 	EXP 	text: autoDraw = False
+39.6072 	EXP 	text_2: autoDraw = False
+39.6072 	EXP 	image_1: image = 'img4.png'
+39.6072 	EXP 	text_label_1: height = 0.05
+39.6072 	EXP 	text_label_1: height = 0.05
+39.6072 	EXP 	text_label_1: height = 0.05
+39.6072 	EXP 	text_label_1: text = 'СИЛЬВЕСТЕТТО-ДИЛЬВЕСТЕТТО'
+39.6072 	EXP 	image_1: autoDraw = True
+39.6072 	EXP 	text_label_1: autoDraw = True
+42.0987 	INFO 	Keyboard events cleared
+42.0985 	EXP 	image_1: autoDraw = False
+42.0985 	EXP 	text_label_1: autoDraw = False
+42.0985 	EXP 	text_ans_quest_right: autoDraw = True
+42.0985 	EXP 	text_ans_quest_left: autoDraw = True
+43.5515 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'ImageFile': 'img8.png', 'LabelText': 'ТАРЕМАТТО-КАРЕМАТТО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с  "ветератто"?', 'CorrectAnswer_congr': 'right', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+43.5575 	DATA 	Keypress: left
+43.5611 	EXP 	text_ans_quest_right: autoDraw = False
+43.5611 	EXP 	text_ans_quest_left: autoDraw = False
+43.5611 	EXP 	text: height = 0.05
+43.5611 	EXP 	text: height = 0.05
+43.5611 	EXP 	text: height = 0.05
+43.5611 	EXP 	text: text = 'Слово рифмуется с  "ветератто"?'
+43.5611 	EXP 	text: autoDraw = True
+43.5611 	EXP 	text_2: autoDraw = True
+44.0488 	INFO 	Keyboard events cleared
+46.7216 	DATA 	Keypress: space
+46.7246 	EXP 	text: autoDraw = False
+46.7246 	EXP 	text_2: autoDraw = False
+46.7246 	EXP 	image_1: image = 'img8.png'
+46.7246 	EXP 	text_label_1: height = 0.05
+46.7246 	EXP 	text_label_1: height = 0.05
+46.7246 	EXP 	text_label_1: height = 0.05
+46.7246 	EXP 	text_label_1: text = 'ТАРЕМАТТО-КАРЕМАТТО'
+46.7246 	EXP 	image_1: autoDraw = True
+46.7246 	EXP 	text_label_1: autoDraw = True
+48.0692 	DATA 	Keypress: right
+49.2155 	INFO 	Keyboard events cleared
+49.2153 	EXP 	image_1: autoDraw = False
+49.2153 	EXP 	text_label_1: autoDraw = False
+49.2153 	EXP 	text_ans_quest_right: autoDraw = True
+49.2153 	EXP 	text_ans_quest_left: autoDraw = True
+49.6013 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'ImageFile': 'img13.png', 'LabelText': 'миралино-киралино', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+49.6056 	DATA 	Keypress: right
+49.6093 	EXP 	text_ans_quest_right: autoDraw = False
+49.6093 	EXP 	text_ans_quest_left: autoDraw = False
+49.6093 	EXP 	text: height = 0.05
+49.6093 	EXP 	text: height = 0.05
+49.6093 	EXP 	text: height = 0.05
+49.6093 	EXP 	text: text = 'Слово написано большими буквами?'
+49.6093 	EXP 	text: autoDraw = True
+49.6093 	EXP 	text_2: autoDraw = True
+50.0985 	INFO 	Keyboard events cleared
+52.6263 	DATA 	Keypress: space
+52.6289 	EXP 	text: autoDraw = False
+52.6289 	EXP 	text_2: autoDraw = False
+52.6289 	EXP 	image_1: image = 'img13.png'
+52.6289 	EXP 	text_label_1: height = 0.05
+52.6289 	EXP 	text_label_1: height = 0.05
+52.6289 	EXP 	text_label_1: height = 0.05
+52.6289 	EXP 	text_label_1: text = 'миралино-киралино'
+52.6289 	EXP 	image_1: autoDraw = True
+52.6289 	EXP 	text_label_1: autoDraw = True
+53.9356 	DATA 	Keypress: left
+54.4859 	DATA 	Keypress: space
+55.0987 	INFO 	Keyboard events cleared
+55.0985 	EXP 	image_1: autoDraw = False
+55.0985 	EXP 	text_label_1: autoDraw = False
+55.0985 	EXP 	text_ans_quest_right: autoDraw = True
+55.0985 	EXP 	text_ans_quest_left: autoDraw = True
+55.4905 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'ImageFile': 'img14.png', 'LabelText': 'БЕРЕНДИНО-ФЕРЕНДИНО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с "ветеритто"?', 'CorrectAnswer_congr': 'left', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+55.4947 	DATA 	Keypress: left
+55.4985 	EXP 	text_ans_quest_right: autoDraw = False
+55.4985 	EXP 	text_ans_quest_left: autoDraw = False
+55.4985 	EXP 	text: height = 0.05
+55.4985 	EXP 	text: height = 0.05
+55.4985 	EXP 	text: height = 0.05
+55.4985 	EXP 	text: text = 'Слово рифмуется с "ветеритто"?'
+55.4985 	EXP 	text: autoDraw = True
+55.4985 	EXP 	text_2: autoDraw = True
+55.9879 	INFO 	Keyboard events cleared
+60.3022 	DATA 	Keypress: space
+60.3049 	EXP 	text: autoDraw = False
+60.3049 	EXP 	text_2: autoDraw = False
+60.3049 	EXP 	image_1: image = 'img14.png'
+60.3049 	EXP 	text_label_1: height = 0.05
+60.3049 	EXP 	text_label_1: height = 0.05
+60.3049 	EXP 	text_label_1: height = 0.05
+60.3049 	EXP 	text_label_1: text = 'БЕРЕНДИНО-ФЕРЕНДИНО'
+60.3049 	EXP 	image_1: autoDraw = True
+60.3049 	EXP 	text_label_1: autoDraw = True
+62.7986 	INFO 	Keyboard events cleared
+62.7984 	EXP 	image_1: autoDraw = False
+62.7984 	EXP 	text_label_1: autoDraw = False
+62.7984 	EXP 	text_ans_quest_right: autoDraw = True
+62.7984 	EXP 	text_ans_quest_left: autoDraw = True
+63.5517 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'ImageFile': 'img12.png', 'LabelText': 'МАЛИВОРА-БАЛИВОРА', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+63.5565 	DATA 	Keypress: left
+63.5605 	EXP 	text_ans_quest_right: autoDraw = False
+63.5605 	EXP 	text_ans_quest_left: autoDraw = False
+63.5605 	EXP 	text: height = 0.05
+63.5605 	EXP 	text: height = 0.05
+63.5605 	EXP 	text: height = 0.05
+63.5605 	EXP 	text: text = 'Ассоциируете ли Вы себя с этим словом?'
+63.5605 	EXP 	text: autoDraw = True
+63.5605 	EXP 	text_2: autoDraw = True
+64.0487 	INFO 	Keyboard events cleared
+65.6256 	DATA 	Keypress: space
+65.6285 	EXP 	text: autoDraw = False
+65.6285 	EXP 	text_2: autoDraw = False
+65.6285 	EXP 	image_1: image = 'img12.png'
+65.6285 	EXP 	text_label_1: height = 0.05
+65.6285 	EXP 	text_label_1: height = 0.05
+65.6285 	EXP 	text_label_1: height = 0.05
+65.6285 	EXP 	text_label_1: text = 'МАЛИВОРА-БАЛИВОРА'
+65.6285 	EXP 	image_1: autoDraw = True
+65.6285 	EXP 	text_label_1: autoDraw = True
+68.1153 	INFO 	Keyboard events cleared
+68.1151 	EXP 	image_1: autoDraw = False
+68.1151 	EXP 	text_label_1: autoDraw = False
+68.1151 	EXP 	text_ans_quest_right: autoDraw = True
+68.1151 	EXP 	text_ans_quest_left: autoDraw = True
+68.8238 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'ImageFile': 'img15.png', 'LabelText': 'кареттето-мареттето', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+68.8256 	DATA 	Keypress: right
+68.8317 	EXP 	text_ans_quest_right: autoDraw = False
+68.8317 	EXP 	text_ans_quest_left: autoDraw = False
+68.8317 	EXP 	text: text = 'Ассоциируете ли Вы себя с этим словом?'
+68.8317 	EXP 	text: autoDraw = True
+68.8317 	EXP 	text_2: autoDraw = True
+69.3210 	INFO 	Keyboard events cleared
+72.3392 	DATA 	Keypress: space
+72.3422 	EXP 	text: autoDraw = False
+72.3422 	EXP 	text_2: autoDraw = False
+72.3422 	EXP 	image_1: image = 'img15.png'
+72.3422 	EXP 	text_label_1: height = 0.05
+72.3422 	EXP 	text_label_1: height = 0.05
+72.3422 	EXP 	text_label_1: height = 0.05
+72.3422 	EXP 	text_label_1: text = 'кареттето-мареттето'
+72.3422 	EXP 	image_1: autoDraw = True
+72.3422 	EXP 	text_label_1: autoDraw = True
+74.8320 	INFO 	Keyboard events cleared
+74.8318 	EXP 	image_1: autoDraw = False
+74.8318 	EXP 	text_label_1: autoDraw = False
+74.8318 	EXP 	text_ans_quest_right: autoDraw = True
+74.8318 	EXP 	text_ans_quest_left: autoDraw = True
+75.8369 	DATA 	Keypress: space
+76.5021 	DATA 	Keypress: space
+76.9180 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'ImageFile': 'img21.png', 'LabelText': 'фалероне-далероне', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+76.9197 	DATA 	Keypress: left
+76.9232 	EXP 	text_ans_quest_right: autoDraw = False
+76.9232 	EXP 	text_ans_quest_left: autoDraw = False
+76.9232 	EXP 	text: text = 'Ассоциируете ли Вы себя с этим словом?'
+76.9232 	EXP 	text: autoDraw = True
+76.9232 	EXP 	text_2: autoDraw = True
+77.4153 	INFO 	Keyboard events cleared
+79.4930 	DATA 	Keypress: space
+79.4956 	EXP 	text: autoDraw = False
+79.4956 	EXP 	text_2: autoDraw = False
+79.4956 	EXP 	image_1: image = 'img21.png'
+79.4956 	EXP 	text_label_1: height = 0.05
+79.4956 	EXP 	text_label_1: height = 0.05
+79.4956 	EXP 	text_label_1: height = 0.05
+79.4956 	EXP 	text_label_1: text = 'фалероне-далероне'
+79.4956 	EXP 	image_1: autoDraw = True
+79.4956 	EXP 	text_label_1: autoDraw = True
+81.9880 	INFO 	Keyboard events cleared
+81.9878 	EXP 	image_1: autoDraw = False
+81.9878 	EXP 	text_label_1: autoDraw = False
+81.9878 	EXP 	text_ans_quest_right: autoDraw = True
+81.9878 	EXP 	text_ans_quest_left: autoDraw = True
+82.6681 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'ImageFile': 'img17.png', 'LabelText': 'тераделло-мераделло', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с "облакино"?', 'CorrectAnswer_congr': 'left', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+82.6723 	DATA 	Keypress: right
+82.6761 	EXP 	text_ans_quest_right: autoDraw = False
+82.6761 	EXP 	text_ans_quest_left: autoDraw = False
+82.6761 	EXP 	text: height = 0.05
+82.6761 	EXP 	text: height = 0.05
+82.6761 	EXP 	text: height = 0.05
+82.6761 	EXP 	text: text = 'Слово рифмуется с "облакино"?'
+82.6761 	EXP 	text: autoDraw = True
+82.6761 	EXP 	text_2: autoDraw = True
+83.1651 	INFO 	Keyboard events cleared
+87.0959 	DATA 	Keypress: space
+87.0987 	EXP 	text: autoDraw = False
+87.0987 	EXP 	text_2: autoDraw = False
+87.0987 	EXP 	image_1: image = 'img17.png'
+87.0987 	EXP 	text_label_1: height = 0.05
+87.0987 	EXP 	text_label_1: height = 0.05
+87.0987 	EXP 	text_label_1: height = 0.05
+87.0987 	EXP 	text_label_1: text = 'тераделло-мераделло'
+87.0987 	EXP 	image_1: autoDraw = True
+87.0987 	EXP 	text_label_1: autoDraw = True
+88.4196 	DATA 	Keypress: left
+89.5880 	INFO 	Keyboard events cleared
+89.5878 	EXP 	image_1: autoDraw = False
+89.5878 	EXP 	text_label_1: autoDraw = False
+89.5878 	EXP 	text_ans_quest_right: autoDraw = True
+89.5878 	EXP 	text_ans_quest_left: autoDraw = True
+91.2404 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'ImageFile': 'img23.png', 'LabelText': 'ромасора-комасора', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с "туманетто"?', 'CorrectAnswer_congr': 'left', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+91.2450 	DATA 	Keypress: left
+91.2490 	EXP 	text_ans_quest_right: autoDraw = False
+91.2490 	EXP 	text_ans_quest_left: autoDraw = False
+91.2490 	EXP 	text: height = 0.05
+91.2490 	EXP 	text: height = 0.05
+91.2490 	EXP 	text: height = 0.05
+91.2490 	EXP 	text: text = 'Слово рифмуется с "туманетто"?'
+91.2490 	EXP 	text: autoDraw = True
+91.2490 	EXP 	text_2: autoDraw = True
+91.7377 	INFO 	Keyboard events cleared
+93.2195 	DATA 	Keypress: space
+93.2222 	EXP 	text: autoDraw = False
+93.2222 	EXP 	text_2: autoDraw = False
+93.2222 	EXP 	image_1: image = 'img23.png'
+93.2222 	EXP 	text_label_1: height = 0.05
+93.2222 	EXP 	text_label_1: height = 0.05
+93.2222 	EXP 	text_label_1: height = 0.05
+93.2222 	EXP 	text_label_1: text = 'ромасора-комасора'
+93.2222 	EXP 	image_1: autoDraw = True
+93.2222 	EXP 	text_label_1: autoDraw = True
+95.7153 	INFO 	Keyboard events cleared
+95.7151 	EXP 	image_1: autoDraw = False
+95.7151 	EXP 	text_label_1: autoDraw = False
+95.7151 	EXP 	text_ans_quest_right: autoDraw = True
+95.7151 	EXP 	text_ans_quest_left: autoDraw = True
+96.6243 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'ImageFile': 'img10.png', 'LabelText': 'ТАЛЕРОНЕ-КАРЕЛОНЕ', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+96.6291 	DATA 	Keypress: left
+96.6484 	EXP 	text_ans_quest_right: autoDraw = False
+96.6484 	EXP 	text_ans_quest_left: autoDraw = False
+96.6484 	EXP 	text: height = 0.05
+96.6484 	EXP 	text: height = 0.05
+96.6484 	EXP 	text: height = 0.05
+96.6484 	EXP 	text: text = 'Слово написано большими буквами?'
+96.6484 	EXP 	text: autoDraw = True
+96.6484 	EXP 	text_2: autoDraw = True
+97.1210 	INFO 	Keyboard events cleared
+99.3711 	DATA 	Keypress: space
+99.3739 	EXP 	text: autoDraw = False
+99.3739 	EXP 	text_2: autoDraw = False
+99.3739 	EXP 	image_1: image = 'img10.png'
+99.3739 	EXP 	text_label_1: height = 0.05
+99.3739 	EXP 	text_label_1: height = 0.05
+99.3739 	EXP 	text_label_1: height = 0.05
+99.3739 	EXP 	text_label_1: text = 'ТАЛЕРОНЕ-КАРЕЛОНЕ'
+99.3739 	EXP 	image_1: autoDraw = True
+99.3739 	EXP 	text_label_1: autoDraw = True
+101.8486 	INFO 	Keyboard events cleared
+101.8484 	EXP 	image_1: autoDraw = False
+101.8484 	EXP 	text_label_1: autoDraw = False
+101.8484 	EXP 	text_ans_quest_right: autoDraw = True
+101.8484 	EXP 	text_ans_quest_left: autoDraw = True
+102.5183 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'ImageFile': 'img1.png', 'LabelText': 'валичино-саличино', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+102.5203 	DATA 	Keypress: left
+102.5241 	EXP 	text_ans_quest_right: autoDraw = False
+102.5241 	EXP 	text_ans_quest_left: autoDraw = False
+102.5241 	EXP 	text: text = 'Слово написано большими буквами?'
+102.5241 	EXP 	text: autoDraw = True
+102.5241 	EXP 	text_2: autoDraw = True
+103.0151 	INFO 	Keyboard events cleared
+103.9793 	DATA 	Keypress: space
+103.9819 	EXP 	text: autoDraw = False
+103.9819 	EXP 	text_2: autoDraw = False
+103.9819 	EXP 	image_1: image = 'img1.png'
+103.9819 	EXP 	text_label_1: height = 0.05
+103.9819 	EXP 	text_label_1: height = 0.05
+103.9819 	EXP 	text_label_1: height = 0.05
+103.9819 	EXP 	text_label_1: text = 'валичино-саличино'
+103.9819 	EXP 	image_1: autoDraw = True
+103.9819 	EXP 	text_label_1: autoDraw = True
+106.4719 	INFO 	Keyboard events cleared
+106.4717 	EXP 	image_1: autoDraw = False
+106.4717 	EXP 	text_label_1: autoDraw = False
+106.4717 	EXP 	text_ans_quest_right: autoDraw = True
+106.4717 	EXP 	text_ans_quest_left: autoDraw = True
+107.0695 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'ImageFile': 'img18.png', 'LabelText': 'СУРАНЕЛЛО-ЛУРАНЕЛЛО', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+107.0744 	DATA 	Keypress: left
+107.0777 	EXP 	text_ans_quest_right: autoDraw = False
+107.0777 	EXP 	text_ans_quest_left: autoDraw = False
+107.0777 	EXP 	text: height = 0.05
+107.0777 	EXP 	text: height = 0.05
+107.0777 	EXP 	text: height = 0.05
+107.0777 	EXP 	text: text = 'Ассоциируете ли Вы себя с этим словом?'
+107.0777 	EXP 	text: autoDraw = True
+107.0777 	EXP 	text_2: autoDraw = True
+107.5652 	INFO 	Keyboard events cleared
+108.6426 	DATA 	Keypress: space
+108.6453 	EXP 	text: autoDraw = False
+108.6453 	EXP 	text_2: autoDraw = False
+108.6453 	EXP 	image_1: image = 'img18.png'
+108.6453 	EXP 	text_label_1: height = 0.05
+108.6453 	EXP 	text_label_1: height = 0.05
+108.6453 	EXP 	text_label_1: height = 0.05
+108.6453 	EXP 	text_label_1: text = 'СУРАНЕЛЛО-ЛУРАНЕЛЛО'
+108.6453 	EXP 	image_1: autoDraw = True
+108.6453 	EXP 	text_label_1: autoDraw = True
+111.1380 	INFO 	Keyboard events cleared
+111.1378 	EXP 	image_1: autoDraw = False
+111.1378 	EXP 	text_label_1: autoDraw = False
+111.1378 	EXP 	text_ans_quest_right: autoDraw = True
+111.1378 	EXP 	text_ans_quest_left: autoDraw = True
+111.6845 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'ImageFile': 'img20.png', 'LabelText': 'ВАЛЕКИТТО-МАЛЕКИТТО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с "пейзажитто"?', 'CorrectAnswer_congr': 'right', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+111.6891 	DATA 	Keypress: right
+111.6928 	EXP 	text_ans_quest_right: autoDraw = False
+111.6928 	EXP 	text_ans_quest_left: autoDraw = False
+111.6928 	EXP 	text: height = 0.05
+111.6928 	EXP 	text: height = 0.05
+111.6928 	EXP 	text: height = 0.05
+111.6928 	EXP 	text: text = 'Слово рифмуется с "пейзажитто"?'
+111.6928 	EXP 	text: autoDraw = True
+111.6928 	EXP 	text_2: autoDraw = True
+112.1816 	INFO 	Keyboard events cleared
+115.0755 	DATA 	Keypress: space
+115.0782 	EXP 	text: autoDraw = False
+115.0782 	EXP 	text_2: autoDraw = False
+115.0782 	EXP 	image_1: image = 'img20.png'
+115.0782 	EXP 	text_label_1: height = 0.05
+115.0782 	EXP 	text_label_1: height = 0.05
+115.0782 	EXP 	text_label_1: height = 0.05
+115.0782 	EXP 	text_label_1: text = 'ВАЛЕКИТТО-МАЛЕКИТТО'
+115.0782 	EXP 	image_1: autoDraw = True
+115.0782 	EXP 	text_label_1: autoDraw = True
+116.0581 	DATA 	Keypress: left
+117.5484 	INFO 	Keyboard events cleared
+117.5482 	EXP 	image_1: autoDraw = False
+117.5482 	EXP 	text_label_1: autoDraw = False
+117.5482 	EXP 	text_ans_quest_right: autoDraw = True
+117.5482 	EXP 	text_ans_quest_left: autoDraw = True
+118.0905 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'ImageFile': 'img6.png', 'LabelText': 'КАРОФЕЛЛО-МАРОФЕЛЛО', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+118.0951 	DATA 	Keypress: left
+118.0989 	EXP 	text_ans_quest_right: autoDraw = False
+118.0989 	EXP 	text_ans_quest_left: autoDraw = False
+118.0989 	EXP 	text: height = 0.05
+118.0989 	EXP 	text: height = 0.05
+118.0989 	EXP 	text: height = 0.05
+118.0989 	EXP 	text: text = 'Ассоциируете ли Вы себя с этим словом?'
+118.0989 	EXP 	text: autoDraw = True
+118.0989 	EXP 	text_2: autoDraw = True
+118.5877 	INFO 	Keyboard events cleared
+120.2310 	DATA 	Keypress: space
+120.2337 	EXP 	text: autoDraw = False
+120.2337 	EXP 	text_2: autoDraw = False
+120.2337 	EXP 	image_1: image = 'img6.png'
+120.2337 	EXP 	text_label_1: height = 0.05
+120.2337 	EXP 	text_label_1: height = 0.05
+120.2337 	EXP 	text_label_1: height = 0.05
+120.2337 	EXP 	text_label_1: text = 'КАРОФЕЛЛО-МАРОФЕЛЛО'
+120.2337 	EXP 	image_1: autoDraw = True
+120.2337 	EXP 	text_label_1: autoDraw = True
+121.3419 	DATA 	Keypress: right
+122.7217 	INFO 	Keyboard events cleared
+122.7215 	EXP 	image_1: autoDraw = False
+122.7215 	EXP 	text_label_1: autoDraw = False
+122.7215 	EXP 	text_ans_quest_right: autoDraw = True
+122.7215 	EXP 	text_ans_quest_left: autoDraw = True
+123.2569 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'ImageFile': 'img16.png', 'LabelText': 'ТЕРАЛЕТТО-МЕРАЛЕТТО', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+123.2612 	DATA 	Keypress: right
+123.2649 	EXP 	text_ans_quest_right: autoDraw = False
+123.2649 	EXP 	text_ans_quest_left: autoDraw = False
+123.2649 	EXP 	text: height = 0.05
+123.2649 	EXP 	text: height = 0.05
+123.2649 	EXP 	text: height = 0.05
+123.2649 	EXP 	text: text = 'Слово написано большими буквами?'
+123.2649 	EXP 	text: autoDraw = True
+123.2649 	EXP 	text_2: autoDraw = True
+123.7540 	INFO 	Keyboard events cleared
+124.8635 	DATA 	Keypress: space
+124.8661 	EXP 	text: autoDraw = False
+124.8661 	EXP 	text_2: autoDraw = False
+124.8661 	EXP 	image_1: image = 'img16.png'
+124.8661 	EXP 	text_label_1: height = 0.05
+124.8661 	EXP 	text_label_1: height = 0.05
+124.8661 	EXP 	text_label_1: height = 0.05
+124.8661 	EXP 	text_label_1: text = 'ТЕРАЛЕТТО-МЕРАЛЕТТО'
+124.8661 	EXP 	image_1: autoDraw = True
+124.8661 	EXP 	text_label_1: autoDraw = True
+127.3381 	INFO 	Keyboard events cleared
+127.3379 	EXP 	image_1: autoDraw = False
+127.3379 	EXP 	text_label_1: autoDraw = False
+127.3379 	EXP 	text_ans_quest_right: autoDraw = True
+127.3379 	EXP 	text_ans_quest_left: autoDraw = True
+127.8345 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'ImageFile': 'img7.png', 'LabelText': 'марилитто-сарилитто', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+127.8364 	DATA 	Keypress: left
+127.8401 	EXP 	text_ans_quest_right: autoDraw = False
+127.8401 	EXP 	text_ans_quest_left: autoDraw = False
+127.8401 	EXP 	text: text = 'Слово написано большими буквами?'
+127.8401 	EXP 	text: autoDraw = True
+127.8401 	EXP 	text_2: autoDraw = True
+128.3317 	INFO 	Keyboard events cleared
+129.3857 	DATA 	Keypress: space
+129.3883 	EXP 	text: autoDraw = False
+129.3883 	EXP 	text_2: autoDraw = False
+129.3883 	EXP 	image_1: image = 'img7.png'
+129.3883 	EXP 	text_label_1: height = 0.05
+129.3883 	EXP 	text_label_1: height = 0.05
+129.3883 	EXP 	text_label_1: height = 0.05
+129.3883 	EXP 	text_label_1: text = 'марилитто-сарилитто'
+129.3883 	EXP 	image_1: autoDraw = True
+129.3883 	EXP 	text_label_1: autoDraw = True
+131.8817 	INFO 	Keyboard events cleared
+131.8814 	EXP 	image_1: autoDraw = False
+131.8814 	EXP 	text_label_1: autoDraw = False
+131.8814 	EXP 	text_ans_quest_right: autoDraw = True
+131.8814 	EXP 	text_ans_quest_left: autoDraw = True
+132.5065 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'ImageFile': 'img9.png', 'LabelText': 'маривоне-саривоне', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+132.5111 	DATA 	Keypress: right
+132.5145 	EXP 	text_ans_quest_right: autoDraw = False
+132.5145 	EXP 	text_ans_quest_left: autoDraw = False
+132.5145 	EXP 	text: height = 0.05
+132.5145 	EXP 	text: height = 0.05
+132.5145 	EXP 	text: height = 0.05
+132.5145 	EXP 	text: text = 'Ассоциируете ли Вы себя с этим словом?'
+132.5145 	EXP 	text: autoDraw = True
+132.5145 	EXP 	text_2: autoDraw = True
+133.0043 	INFO 	Keyboard events cleared
+134.0130 	DATA 	Keypress: space
+134.0159 	EXP 	text: autoDraw = False
+134.0159 	EXP 	text_2: autoDraw = False
+134.0159 	EXP 	image_1: image = 'img9.png'
+134.0159 	EXP 	text_label_1: height = 0.05
+134.0159 	EXP 	text_label_1: height = 0.05
+134.0159 	EXP 	text_label_1: height = 0.05
+134.0159 	EXP 	text_label_1: text = 'маривоне-саривоне'
+134.0159 	EXP 	image_1: autoDraw = True
+134.0159 	EXP 	text_label_1: autoDraw = True
+136.4875 	INFO 	Keyboard events cleared
+136.4874 	EXP 	image_1: autoDraw = False
+136.4874 	EXP 	text_label_1: autoDraw = False
+136.4874 	EXP 	text_ans_quest_right: autoDraw = True
+136.4874 	EXP 	text_ans_quest_left: autoDraw = True
+136.9346 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'ImageFile': 'img3.png', 'LabelText': 'бенедетто-фенедетто', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+136.9365 	DATA 	Keypress: left
+136.9403 	EXP 	text_ans_quest_right: autoDraw = False
+136.9403 	EXP 	text_ans_quest_left: autoDraw = False
+136.9403 	EXP 	text: text = 'Ассоциируете ли Вы себя с этим словом?'
+136.9403 	EXP 	text: autoDraw = True
+136.9403 	EXP 	text_2: autoDraw = True
+137.4319 	INFO 	Keyboard events cleared
+138.4213 	DATA 	Keypress: space
+138.4240 	EXP 	text: autoDraw = False
+138.4240 	EXP 	text_2: autoDraw = False
+138.4240 	EXP 	image_1: image = 'img3.png'
+138.4240 	EXP 	text_label_1: height = 0.05
+138.4240 	EXP 	text_label_1: height = 0.05
+138.4240 	EXP 	text_label_1: height = 0.05
+138.4240 	EXP 	text_label_1: text = 'бенедетто-фенедетто'
+138.4240 	EXP 	image_1: autoDraw = True
+138.4240 	EXP 	text_label_1: autoDraw = True
+140.9152 	INFO 	Keyboard events cleared
+140.9150 	EXP 	image_1: autoDraw = False
+140.9150 	EXP 	text_label_1: autoDraw = False
+140.9150 	EXP 	text_ans_quest_right: autoDraw = True
+140.9150 	EXP 	text_ans_quest_left: autoDraw = True
+141.2844 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'ImageFile': 'img19.png', 'LabelText': 'фарензитто-дарензитто', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+141.2889 	DATA 	Keypress: right
+141.2926 	EXP 	text_ans_quest_right: autoDraw = False
+141.2926 	EXP 	text_ans_quest_left: autoDraw = False
+141.2926 	EXP 	text: height = 0.05
+141.2926 	EXP 	text: height = 0.05
+141.2926 	EXP 	text: height = 0.05
+141.2926 	EXP 	text: text = 'Слово написано большими буквами?'
+141.2926 	EXP 	text: autoDraw = True
+141.2926 	EXP 	text_2: autoDraw = True
+141.7817 	INFO 	Keyboard events cleared
+143.3845 	DATA 	Keypress: space
+143.3871 	EXP 	text: autoDraw = False
+143.3871 	EXP 	text_2: autoDraw = False
+143.3871 	EXP 	image_1: image = 'img19.png'
+143.3871 	EXP 	text_label_1: height = 0.05
+143.3871 	EXP 	text_label_1: height = 0.05
+143.3871 	EXP 	text_label_1: height = 0.05
+143.3871 	EXP 	text_label_1: text = 'фарензитто-дарензитто'
+143.3871 	EXP 	image_1: autoDraw = True
+143.3871 	EXP 	text_label_1: autoDraw = True
+145.8821 	INFO 	Keyboard events cleared
+145.8818 	EXP 	image_1: autoDraw = False
+145.8818 	EXP 	text_label_1: autoDraw = False
+145.8818 	EXP 	text_ans_quest_right: autoDraw = True
+145.8818 	EXP 	text_ans_quest_left: autoDraw = True
+146.4845 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'ImageFile': 'img5.png', 'LabelText': 'ралентелло-палентелло', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с "пейзажини"?', 'CorrectAnswer_congr': 'left', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+146.4888 	DATA 	Keypress: left
+146.4927 	EXP 	text_ans_quest_right: autoDraw = False
+146.4927 	EXP 	text_ans_quest_left: autoDraw = False
+146.4927 	EXP 	text: height = 0.05
+146.4927 	EXP 	text: height = 0.05
+146.4927 	EXP 	text: height = 0.05
+146.4927 	EXP 	text: text = 'Слово рифмуется с "пейзажини"?'
+146.4927 	EXP 	text: autoDraw = True
+146.4927 	EXP 	text_2: autoDraw = True
+146.9816 	INFO 	Keyboard events cleared
+147.9719 	DATA 	Keypress: space
+147.9746 	EXP 	text: autoDraw = False
+147.9746 	EXP 	text_2: autoDraw = False
+147.9746 	EXP 	image_1: image = 'img5.png'
+147.9746 	EXP 	text_label_1: height = 0.05
+147.9746 	EXP 	text_label_1: height = 0.05
+147.9746 	EXP 	text_label_1: height = 0.05
+147.9746 	EXP 	text_label_1: text = 'ралентелло-палентелло'
+147.9746 	EXP 	image_1: autoDraw = True
+147.9746 	EXP 	text_label_1: autoDraw = True
+150.4650 	INFO 	Keyboard events cleared
+150.4647 	EXP 	image_1: autoDraw = False
+150.4647 	EXP 	text_label_1: autoDraw = False
+150.4647 	EXP 	text_ans_quest_right: autoDraw = True
+150.4647 	EXP 	text_ans_quest_left: autoDraw = True
+150.7679 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'ImageFile': 'img11.png', 'LabelText': 'таривора-каривора', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с "туманора"?', 'CorrectAnswer_congr': 'right', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+150.7723 	DATA 	Keypress: left
+150.7759 	EXP 	text_ans_quest_right: autoDraw = False
+150.7759 	EXP 	text_ans_quest_left: autoDraw = False
+150.7759 	EXP 	text: height = 0.05
+150.7759 	EXP 	text: height = 0.05
+150.7759 	EXP 	text: height = 0.05
+150.7759 	EXP 	text: text = 'Слово рифмуется с "туманора"?'
+150.7759 	EXP 	text: autoDraw = True
+150.7759 	EXP 	text_2: autoDraw = True
+151.2650 	INFO 	Keyboard events cleared
+152.4482 	DATA 	Keypress: space
+152.4509 	EXP 	text: autoDraw = False
+152.4509 	EXP 	text_2: autoDraw = False
+152.4509 	EXP 	image_1: image = 'img11.png'
+152.4509 	EXP 	text_label_1: height = 0.05
+152.4509 	EXP 	text_label_1: height = 0.05
+152.4509 	EXP 	text_label_1: height = 0.05
+152.4509 	EXP 	text_label_1: text = 'таривора-каривора'
+152.4509 	EXP 	image_1: autoDraw = True
+152.4509 	EXP 	text_label_1: autoDraw = True
+154.9207 	INFO 	Keyboard events cleared
+154.9205 	EXP 	image_1: autoDraw = False
+154.9205 	EXP 	text_label_1: autoDraw = False
+154.9205 	EXP 	text_ans_quest_right: autoDraw = True
+154.9205 	EXP 	text_ans_quest_left: autoDraw = True
+154.9283 	DATA 	Keypress: right
+154.9324 	INFO 	Keyboard events cleared
+154.9323 	EXP 	text_ans_quest_right: autoDraw = False
+154.9323 	EXP 	text_ans_quest_left: autoDraw = False
+154.9323 	EXP 	text_3: autoDraw = True
+157.8019 	DEBUG 	Read excel file with openpyxl: all_incongr_stim_list.xlsx
+157.8044 	EXP 	Imported all_incongr_stim_list.xlsx as conditions, 48 conditions, 3 params
+157.8051 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'ImageFile_All_list': 'img41.png', 'LabelText_all': 'данирелло-ланирелло', 'True_Ans_all': 'left', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+157.8230 	DATA 	Keypress: space
+157.8259 	INFO 	Keyboard events cleared
+157.8257 	EXP 	text_3: autoDraw = False
+157.8257 	EXP 	image_2: image = 'img41.png'
+157.8257 	EXP 	text_label_2: height = 0.05
+157.8257 	EXP 	text_label_2: height = 0.05
+157.8257 	EXP 	text_label_2: height = 0.05
+157.8257 	EXP 	text_label_2: text = 'данирелло-ланирелло'
+157.8257 	EXP 	image_2: autoDraw = True
+157.8257 	EXP 	text_label_2: autoDraw = True
+157.8257 	EXP 	text_instr_3: autoDraw = True
+161.2843 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'ImageFile_All_list': 'img10.png', 'LabelText_all': 'ТАЛЕРОНЕ-КАРЕЛОНЕ', 'True_Ans_all': 'right', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+161.3211 	DATA 	Keypress: left
+161.3238 	INFO 	Keyboard events cleared
+161.3237 	EXP 	image_2: autoDraw = False
+161.3237 	EXP 	text_label_2: autoDraw = False
+161.3237 	EXP 	text_instr_3: autoDraw = False
+161.3237 	EXP 	image_2: image = 'img10.png'
+161.3237 	EXP 	text_label_2: height = 0.05
+161.3237 	EXP 	text_label_2: height = 0.05
+161.3237 	EXP 	text_label_2: height = 0.05
+161.3237 	EXP 	text_label_2: text = 'ТАЛЕРОНЕ-КАРЕЛОНЕ'
+161.3237 	EXP 	image_2: autoDraw = True
+161.3237 	EXP 	text_label_2: autoDraw = True
+161.3237 	EXP 	text_instr_3: autoDraw = True
+161.8341 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'ImageFile_All_list': 'img44.png', 'LabelText_all': 'КАЛЕМИТТО-РАМЕЛИТТО', 'True_Ans_all': 'left', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+161.8581 	DATA 	Keypress: left
+161.8609 	INFO 	Keyboard events cleared
+161.8607 	EXP 	image_2: autoDraw = False
+161.8607 	EXP 	text_label_2: autoDraw = False
+161.8607 	EXP 	text_instr_3: autoDraw = False
+161.8607 	EXP 	image_2: image = 'img44.png'
+161.8607 	EXP 	text_label_2: height = 0.05
+161.8607 	EXP 	text_label_2: height = 0.05
+161.8607 	EXP 	text_label_2: height = 0.05
+161.8607 	EXP 	text_label_2: text = 'КАЛЕМИТТО-РАМЕЛИТТО'
+161.8607 	EXP 	image_2: autoDraw = True
+161.8607 	EXP 	text_label_2: autoDraw = True
+161.8607 	EXP 	text_instr_3: autoDraw = True
+162.2235 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'ImageFile_All_list': 'img39.png', 'LabelText_all': 'гередетто-баридетто', 'True_Ans_all': 'left', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+162.2422 	DATA 	Keypress: left
+162.2449 	INFO 	Keyboard events cleared
+162.2447 	EXP 	image_2: autoDraw = False
+162.2447 	EXP 	text_label_2: autoDraw = False
+162.2447 	EXP 	text_instr_3: autoDraw = False
+162.2447 	EXP 	image_2: image = 'img39.png'
+162.2447 	EXP 	text_label_2: height = 0.05
+162.2447 	EXP 	text_label_2: height = 0.05
+162.2447 	EXP 	text_label_2: height = 0.05
+162.2447 	EXP 	text_label_2: text = 'гередетто-баридетто'
+162.2447 	EXP 	image_2: autoDraw = True
+162.2447 	EXP 	text_label_2: autoDraw = True
+162.2447 	EXP 	text_instr_3: autoDraw = True
+162.5008 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'ImageFile_All_list': 'img35.png', 'LabelText_all': 'ларимвора-маривора', 'True_Ans_all': 'left', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+162.5217 	DATA 	Keypress: left
+162.5245 	INFO 	Keyboard events cleared
+162.5243 	EXP 	image_2: autoDraw = False
+162.5243 	EXP 	text_label_2: autoDraw = False
+162.5243 	EXP 	text_instr_3: autoDraw = False
+162.5243 	EXP 	image_2: image = 'img35.png'
+162.5243 	EXP 	text_label_2: height = 0.05
+162.5243 	EXP 	text_label_2: height = 0.05
+162.5243 	EXP 	text_label_2: height = 0.05
+162.5243 	EXP 	text_label_2: text = 'ларимвора-маривора'
+162.5243 	EXP 	image_2: autoDraw = True
+162.5243 	EXP 	text_label_2: autoDraw = True
+162.5243 	EXP 	text_instr_3: autoDraw = True
+162.8066 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'ImageFile_All_list': 'img43.png', 'LabelText_all': 'симаритто-римаритто', 'True_Ans_all': 'left', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+162.8244 	DATA 	Keypress: left
+162.8271 	INFO 	Keyboard events cleared
+162.8269 	EXP 	image_2: autoDraw = False
+162.8269 	EXP 	text_label_2: autoDraw = False
+162.8269 	EXP 	text_instr_3: autoDraw = False
+162.8269 	EXP 	image_2: image = 'img43.png'
+162.8269 	EXP 	text_label_2: height = 0.05
+162.8269 	EXP 	text_label_2: height = 0.05
+162.8269 	EXP 	text_label_2: height = 0.05
+162.8269 	EXP 	text_label_2: text = 'симаритто-римаритто'
+162.8269 	EXP 	image_2: autoDraw = True
+162.8269 	EXP 	text_label_2: autoDraw = True
+162.8269 	EXP 	text_instr_3: autoDraw = True
+163.4009 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'ImageFile_All_list': 'img42.png', 'LabelText_all': 'БАРОТЕЛЛО-ПАРОТЕЛЛО', 'True_Ans_all': 'left', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+163.4206 	DATA 	Keypress: left
+163.4232 	INFO 	Keyboard events cleared
+163.4231 	EXP 	image_2: autoDraw = False
+163.4231 	EXP 	text_label_2: autoDraw = False
+163.4231 	EXP 	text_instr_3: autoDraw = False
+163.4231 	EXP 	image_2: image = 'img42.png'
+163.4231 	EXP 	text_label_2: height = 0.05
+163.4231 	EXP 	text_label_2: height = 0.05
+163.4231 	EXP 	text_label_2: height = 0.05
+163.4231 	EXP 	text_label_2: text = 'БАРОТЕЛЛО-ПАРОТЕЛЛО'
+163.4231 	EXP 	image_2: autoDraw = True
+163.4231 	EXP 	text_label_2: autoDraw = True
+163.4231 	EXP 	text_instr_3: autoDraw = True
+163.9244 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'ImageFile_All_list': 'img29.png', 'LabelText_all': 'палеттелло-талеттело', 'True_Ans_all': 'left', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+163.9448 	DATA 	Keypress: left
+163.9473 	INFO 	Keyboard events cleared
+163.9472 	EXP 	image_2: autoDraw = False
+163.9472 	EXP 	text_label_2: autoDraw = False
+163.9472 	EXP 	text_instr_3: autoDraw = False
+163.9472 	EXP 	image_2: image = 'img29.png'
+163.9472 	EXP 	text_label_2: height = 0.05
+163.9472 	EXP 	text_label_2: height = 0.05
+163.9472 	EXP 	text_label_2: height = 0.05
+163.9472 	EXP 	text_label_2: text = 'палеттелло-талеттело'
+163.9472 	EXP 	image_2: autoDraw = True
+163.9472 	EXP 	text_label_2: autoDraw = True
+163.9472 	EXP 	text_instr_3: autoDraw = True
+164.2735 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'ImageFile_All_list': 'img20.png', 'LabelText_all': 'ВАЛЕКИТТО-МАЛЕКИТТО', 'True_Ans_all': 'right', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+164.3090 	DATA 	Keypress: left
+164.3116 	INFO 	Keyboard events cleared
+164.3115 	EXP 	image_2: autoDraw = False
+164.3115 	EXP 	text_label_2: autoDraw = False
+164.3115 	EXP 	text_instr_3: autoDraw = False
+164.3115 	EXP 	image_2: image = 'img20.png'
+164.3115 	EXP 	text_label_2: height = 0.05
+164.3115 	EXP 	text_label_2: height = 0.05
+164.3115 	EXP 	text_label_2: height = 0.05
+164.3115 	EXP 	text_label_2: text = 'ВАЛЕКИТТО-МАЛЕКИТТО'
+164.3115 	EXP 	image_2: autoDraw = True
+164.3115 	EXP 	text_label_2: autoDraw = True
+164.3115 	EXP 	text_instr_3: autoDraw = True
+164.6172 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'ImageFile_All_list': 'img36.png', 'LabelText_all': 'ДАРИМОРА-ПАРИМОРА', 'True_Ans_all': 'left', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+164.6355 	DATA 	Keypress: left
+164.6382 	INFO 	Keyboard events cleared
+164.6381 	EXP 	image_2: autoDraw = False
+164.6381 	EXP 	text_label_2: autoDraw = False
+164.6381 	EXP 	text_instr_3: autoDraw = False
+164.6381 	EXP 	image_2: image = 'img36.png'
+164.6381 	EXP 	text_label_2: height = 0.05
+164.6381 	EXP 	text_label_2: height = 0.05
+164.6381 	EXP 	text_label_2: height = 0.05
+164.6381 	EXP 	text_label_2: text = 'ДАРИМОРА-ПАРИМОРА'
+164.6381 	EXP 	image_2: autoDraw = True
+164.6381 	EXP 	text_label_2: autoDraw = True
+164.6381 	EXP 	text_instr_3: autoDraw = True
+164.9238 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'ImageFile_All_list': 'img9.png', 'LabelText_all': 'маривоне-саривоне', 'True_Ans_all': 'right', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+164.9607 	DATA 	Keypress: left
+164.9633 	INFO 	Keyboard events cleared
+164.9632 	EXP 	image_2: autoDraw = False
+164.9632 	EXP 	text_label_2: autoDraw = False
+164.9632 	EXP 	text_instr_3: autoDraw = False
+164.9632 	EXP 	image_2: image = 'img9.png'
+164.9632 	EXP 	text_label_2: height = 0.05
+164.9632 	EXP 	text_label_2: height = 0.05
+164.9632 	EXP 	text_label_2: height = 0.05
+164.9632 	EXP 	text_label_2: text = 'маривоне-саривоне'
+164.9632 	EXP 	image_2: autoDraw = True
+164.9632 	EXP 	text_label_2: autoDraw = True
+164.9632 	EXP 	text_instr_3: autoDraw = True
+165.2395 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'ImageFile_All_list': 'img27.png', 'LabelText_all': 'рембебетто-пемферетто', 'True_Ans_all': 'left', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+165.2573 	DATA 	Keypress: left
+165.2600 	INFO 	Keyboard events cleared
+165.2598 	EXP 	image_2: autoDraw = False
+165.2598 	EXP 	text_label_2: autoDraw = False
+165.2598 	EXP 	text_instr_3: autoDraw = False
+165.2598 	EXP 	image_2: image = 'img27.png'
+165.2598 	EXP 	text_label_2: height = 0.05
+165.2598 	EXP 	text_label_2: height = 0.05
+165.2598 	EXP 	text_label_2: height = 0.05
+165.2598 	EXP 	text_label_2: text = 'рембебетто-пемферетто'
+165.2598 	EXP 	image_2: autoDraw = True
+165.2598 	EXP 	text_label_2: autoDraw = True
+165.2598 	EXP 	text_instr_3: autoDraw = True
+165.5401 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'ImageFile_All_list': 'img47.png', 'LabelText_all': 'телевора-малевора', 'True_Ans_all': 'left', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+165.5588 	DATA 	Keypress: left
+165.5613 	INFO 	Keyboard events cleared
+165.5612 	EXP 	image_2: autoDraw = False
+165.5612 	EXP 	text_label_2: autoDraw = False
+165.5612 	EXP 	text_instr_3: autoDraw = False
+165.5612 	EXP 	image_2: image = 'img47.png'
+165.5612 	EXP 	text_label_2: height = 0.05
+165.5612 	EXP 	text_label_2: height = 0.05
+165.5612 	EXP 	text_label_2: height = 0.05
+165.5612 	EXP 	text_label_2: text = 'телевора-малевора'
+165.5612 	EXP 	image_2: autoDraw = True
+165.5612 	EXP 	text_label_2: autoDraw = True
+165.5612 	EXP 	text_instr_3: autoDraw = True
+165.8568 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'ImageFile_All_list': 'img17.png', 'LabelText_all': 'тераделло-мераделло', 'True_Ans_all': 'right', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+165.8733 	DATA 	Keypress: left
+165.8759 	INFO 	Keyboard events cleared
+165.8758 	EXP 	image_2: autoDraw = False
+165.8758 	EXP 	text_label_2: autoDraw = False
+165.8758 	EXP 	text_instr_3: autoDraw = False
+165.8758 	EXP 	image_2: image = 'img17.png'
+165.8758 	EXP 	text_label_2: height = 0.05
+165.8758 	EXP 	text_label_2: height = 0.05
+165.8758 	EXP 	text_label_2: height = 0.05
+165.8758 	EXP 	text_label_2: text = 'тераделло-мераделло'
+165.8758 	EXP 	image_2: autoDraw = True
+165.8758 	EXP 	text_label_2: autoDraw = True
+165.8758 	EXP 	text_instr_3: autoDraw = True
+166.1342 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'ImageFile_All_list': 'img6.png', 'LabelText_all': 'КАРОФЕЛЛО-МАРОФЕЛЛО', 'True_Ans_all': 'right', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+166.1526 	DATA 	Keypress: left
+166.1554 	INFO 	Keyboard events cleared
+166.1552 	EXP 	image_2: autoDraw = False
+166.1552 	EXP 	text_label_2: autoDraw = False
+166.1552 	EXP 	text_instr_3: autoDraw = False
+166.1552 	EXP 	image_2: image = 'img6.png'
+166.1552 	EXP 	text_label_2: height = 0.05
+166.1552 	EXP 	text_label_2: height = 0.05
+166.1552 	EXP 	text_label_2: height = 0.05
+166.1552 	EXP 	text_label_2: text = 'КАРОФЕЛЛО-МАРОФЕЛЛО'
+166.1552 	EXP 	image_2: autoDraw = True
+166.1552 	EXP 	text_label_2: autoDraw = True
+166.1552 	EXP 	text_instr_3: autoDraw = True
+166.4343 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'ImageFile_All_list': 'img21.png', 'LabelText_all': 'фалероне-далероне', 'True_Ans_all': 'right', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+166.4511 	DATA 	Keypress: left
+166.4538 	INFO 	Keyboard events cleared
+166.4537 	EXP 	image_2: autoDraw = False
+166.4537 	EXP 	text_label_2: autoDraw = False
+166.4537 	EXP 	text_instr_3: autoDraw = False
+166.4537 	EXP 	image_2: image = 'img21.png'
+166.4537 	EXP 	text_label_2: height = 0.05
+166.4537 	EXP 	text_label_2: height = 0.05
+166.4537 	EXP 	text_label_2: height = 0.05
+166.4537 	EXP 	text_label_2: text = 'фалероне-далероне'
+166.4537 	EXP 	image_2: autoDraw = True
+166.4537 	EXP 	text_label_2: autoDraw = True
+166.4537 	EXP 	text_instr_3: autoDraw = True
+166.7677 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'ImageFile_All_list': 'img30.png', 'LabelText_all': 'ФЕЛЛИДЕЛЛО-МЕЛЛИДЕЛЛО', 'True_Ans_all': 'left', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+166.7864 	DATA 	Keypress: left
+166.7891 	INFO 	Keyboard events cleared
+166.7889 	EXP 	image_2: autoDraw = False
+166.7889 	EXP 	text_label_2: autoDraw = False
+166.7889 	EXP 	text_instr_3: autoDraw = False
+166.7889 	EXP 	image_2: image = 'img30.png'
+166.7889 	EXP 	text_label_2: height = 0.05
+166.7889 	EXP 	text_label_2: height = 0.05
+166.7889 	EXP 	text_label_2: height = 0.05
+166.7889 	EXP 	text_label_2: text = 'ФЕЛЛИДЕЛЛО-МЕЛЛИДЕЛЛО'
+166.7889 	EXP 	image_2: autoDraw = True
+166.7889 	EXP 	text_label_2: autoDraw = True
+166.7889 	EXP 	text_instr_3: autoDraw = True
+167.0736 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'ImageFile_All_list': 'img13.png', 'LabelText_all': 'миралино-киралино', 'True_Ans_all': 'right', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+167.1092 	DATA 	Keypress: left
+167.1118 	INFO 	Keyboard events cleared
+167.1116 	EXP 	image_2: autoDraw = False
+167.1116 	EXP 	text_label_2: autoDraw = False
+167.1116 	EXP 	text_instr_3: autoDraw = False
+167.1116 	EXP 	image_2: image = 'img13.png'
+167.1116 	EXP 	text_label_2: height = 0.05
+167.1116 	EXP 	text_label_2: height = 0.05
+167.1116 	EXP 	text_label_2: height = 0.05
+167.1116 	EXP 	text_label_2: text = 'миралино-киралино'
+167.1116 	EXP 	image_2: autoDraw = True
+167.1116 	EXP 	text_label_2: autoDraw = True
+167.1116 	EXP 	text_instr_3: autoDraw = True
+167.3733 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'ImageFile_All_list': 'img40.png', 'LabelText_all': 'ГЕРОТЕТТО-ЛЕРОТЕТТО', 'True_Ans_all': 'left', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+167.3908 	DATA 	Keypress: left
+167.3935 	INFO 	Keyboard events cleared
+167.3934 	EXP 	image_2: autoDraw = False
+167.3934 	EXP 	text_label_2: autoDraw = False
+167.3934 	EXP 	text_instr_3: autoDraw = False
+167.3934 	EXP 	image_2: image = 'img40.png'
+167.3934 	EXP 	text_label_2: height = 0.05
+167.3934 	EXP 	text_label_2: height = 0.05
+167.3934 	EXP 	text_label_2: height = 0.05
+167.3934 	EXP 	text_label_2: text = 'ГЕРОТЕТТО-ЛЕРОТЕТТО'
+167.3934 	EXP 	image_2: autoDraw = True
+167.3934 	EXP 	text_label_2: autoDraw = True
+167.3934 	EXP 	text_instr_3: autoDraw = True
+167.6844 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'ImageFile_All_list': 'img31.png', 'LabelText_all': 'лорематто-форематто', 'True_Ans_all': 'left', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+167.7025 	DATA 	Keypress: left
+167.7051 	INFO 	Keyboard events cleared
+167.7050 	EXP 	image_2: autoDraw = False
+167.7050 	EXP 	text_label_2: autoDraw = False
+167.7050 	EXP 	text_instr_3: autoDraw = False
+167.7050 	EXP 	image_2: image = 'img31.png'
+167.7050 	EXP 	text_label_2: height = 0.05
+167.7050 	EXP 	text_label_2: height = 0.05
+167.7050 	EXP 	text_label_2: height = 0.05
+167.7050 	EXP 	text_label_2: text = 'лорематто-форематто'
+167.7050 	EXP 	image_2: autoDraw = True
+167.7050 	EXP 	text_label_2: autoDraw = True
+167.7050 	EXP 	text_instr_3: autoDraw = True
+167.9736 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'ImageFile_All_list': 'img3.png', 'LabelText_all': 'бенедетто-фенедетто', 'True_Ans_all': 'right', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+167.9924 	DATA 	Keypress: left
+167.9950 	INFO 	Keyboard events cleared
+167.9949 	EXP 	image_2: autoDraw = False
+167.9949 	EXP 	text_label_2: autoDraw = False
+167.9949 	EXP 	text_instr_3: autoDraw = False
+167.9949 	EXP 	image_2: image = 'img3.png'
+167.9949 	EXP 	text_label_2: height = 0.05
+167.9949 	EXP 	text_label_2: height = 0.05
+167.9949 	EXP 	text_label_2: height = 0.05
+167.9949 	EXP 	text_label_2: text = 'бенедетто-фенедетто'
+167.9949 	EXP 	image_2: autoDraw = True
+167.9949 	EXP 	text_label_2: autoDraw = True
+167.9949 	EXP 	text_instr_3: autoDraw = True
+168.3006 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'ImageFile_All_list': 'img19.png', 'LabelText_all': 'фарензитто-дарензитто', 'True_Ans_all': 'right', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+168.3164 	DATA 	Keypress: left
+168.3189 	INFO 	Keyboard events cleared
+168.3188 	EXP 	image_2: autoDraw = False
+168.3188 	EXP 	text_label_2: autoDraw = False
+168.3188 	EXP 	text_instr_3: autoDraw = False
+168.3188 	EXP 	image_2: image = 'img19.png'
+168.3188 	EXP 	text_label_2: height = 0.05
+168.3188 	EXP 	text_label_2: height = 0.05
+168.3188 	EXP 	text_label_2: height = 0.05
+168.3188 	EXP 	text_label_2: text = 'фарензитто-дарензитто'
+168.3188 	EXP 	image_2: autoDraw = True
+168.3188 	EXP 	text_label_2: autoDraw = True
+168.3188 	EXP 	text_instr_3: autoDraw = True
+168.5732 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'ImageFile_All_list': 'img38.png', 'LabelText_all': 'ЛАРИЧИНО-МАРИЧИНО', 'True_Ans_all': 'left', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+168.5915 	DATA 	Keypress: left
+168.5941 	INFO 	Keyboard events cleared
+168.5939 	EXP 	image_2: autoDraw = False
+168.5939 	EXP 	text_label_2: autoDraw = False
+168.5939 	EXP 	text_instr_3: autoDraw = False
+168.5939 	EXP 	image_2: image = 'img38.png'
+168.5939 	EXP 	text_label_2: height = 0.05
+168.5939 	EXP 	text_label_2: height = 0.05
+168.5939 	EXP 	text_label_2: height = 0.05
+168.5939 	EXP 	text_label_2: text = 'ЛАРИЧИНО-МАРИЧИНО'
+168.5939 	EXP 	image_2: autoDraw = True
+168.5939 	EXP 	text_label_2: autoDraw = True
+168.5939 	EXP 	text_instr_3: autoDraw = True
+168.8673 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'ImageFile_All_list': 'img7.png', 'LabelText_all': 'марилитто-сарилитто', 'True_Ans_all': 'right', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+168.8843 	DATA 	Keypress: left
+168.8869 	INFO 	Keyboard events cleared
+168.8867 	EXP 	image_2: autoDraw = False
+168.8867 	EXP 	text_label_2: autoDraw = False
+168.8867 	EXP 	text_instr_3: autoDraw = False
+168.8867 	EXP 	image_2: image = 'img7.png'
+168.8867 	EXP 	text_label_2: height = 0.05
+168.8867 	EXP 	text_label_2: height = 0.05
+168.8867 	EXP 	text_label_2: height = 0.05
+168.8867 	EXP 	text_label_2: text = 'марилитто-сарилитто'
+168.8867 	EXP 	image_2: autoDraw = True
+168.8867 	EXP 	text_label_2: autoDraw = True
+168.8867 	EXP 	text_instr_3: autoDraw = True
+169.1675 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'ImageFile_All_list': 'img5.png', 'LabelText_all': 'ралентелло-палентелло', 'True_Ans_all': 'right', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+169.1879 	DATA 	Keypress: left
+169.1906 	INFO 	Keyboard events cleared
+169.1904 	EXP 	image_2: autoDraw = False
+169.1904 	EXP 	text_label_2: autoDraw = False
+169.1904 	EXP 	text_instr_3: autoDraw = False
+169.1904 	EXP 	image_2: image = 'img5.png'
+169.1904 	EXP 	text_label_2: height = 0.05
+169.1904 	EXP 	text_label_2: height = 0.05
+169.1904 	EXP 	text_label_2: height = 0.05
+169.1904 	EXP 	text_label_2: text = 'ралентелло-палентелло'
+169.1904 	EXP 	image_2: autoDraw = True
+169.1904 	EXP 	text_label_2: autoDraw = True
+169.1904 	EXP 	text_instr_3: autoDraw = True
+169.4567 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'ImageFile_All_list': 'img4.png', 'LabelText_all': 'СИЛЬВЕСТЕТТО-ДИЛЬВЕСТЕТТО', 'True_Ans_all': 'right', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+169.4746 	DATA 	Keypress: left
+169.4774 	INFO 	Keyboard events cleared
+169.4773 	EXP 	image_2: autoDraw = False
+169.4773 	EXP 	text_label_2: autoDraw = False
+169.4773 	EXP 	text_instr_3: autoDraw = False
+169.4773 	EXP 	image_2: image = 'img4.png'
+169.4773 	EXP 	text_label_2: height = 0.05
+169.4773 	EXP 	text_label_2: height = 0.05
+169.4773 	EXP 	text_label_2: height = 0.05
+169.4773 	EXP 	text_label_2: text = 'СИЛЬВЕСТЕТТО-ДИЛЬВЕСТЕТТО'
+169.4773 	EXP 	image_2: autoDraw = True
+169.4773 	EXP 	text_label_2: autoDraw = True
+169.4773 	EXP 	text_instr_3: autoDraw = True
+169.7341 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'ImageFile_All_list': 'img25.png', 'LabelText_all': 'ромалино-комалино', 'True_Ans_all': 'left', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+169.7535 	DATA 	Keypress: left
+169.7561 	INFO 	Keyboard events cleared
+169.7560 	EXP 	image_2: autoDraw = False
+169.7560 	EXP 	text_label_2: autoDraw = False
+169.7560 	EXP 	text_instr_3: autoDraw = False
+169.7560 	EXP 	image_2: image = 'img25.png'
+169.7560 	EXP 	text_label_2: height = 0.05
+169.7560 	EXP 	text_label_2: height = 0.05
+169.7560 	EXP 	text_label_2: height = 0.05
+169.7560 	EXP 	text_label_2: text = 'ромалино-комалино'
+169.7560 	EXP 	image_2: autoDraw = True
+169.7560 	EXP 	text_label_2: autoDraw = True
+169.7560 	EXP 	text_instr_3: autoDraw = True
+170.0063 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'ImageFile_All_list': 'img32.png', 'LabelText_all': 'ГАЛЕРДИТТО-ПАЛЕРДИТТО', 'True_Ans_all': 'left', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+170.0245 	DATA 	Keypress: left
+170.0271 	INFO 	Keyboard events cleared
+170.0270 	EXP 	image_2: autoDraw = False
+170.0270 	EXP 	text_label_2: autoDraw = False
+170.0270 	EXP 	text_instr_3: autoDraw = False
+170.0270 	EXP 	image_2: image = 'img32.png'
+170.0270 	EXP 	text_label_2: height = 0.05
+170.0270 	EXP 	text_label_2: height = 0.05
+170.0270 	EXP 	text_label_2: height = 0.05
+170.0270 	EXP 	text_label_2: text = 'ГАЛЕРДИТТО-ПАЛЕРДИТТО'
+170.0270 	EXP 	image_2: autoDraw = True
+170.0270 	EXP 	text_label_2: autoDraw = True
+170.0270 	EXP 	text_instr_3: autoDraw = True
+170.3070 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'ImageFile_All_list': 'img33.png', 'LabelText_all': 'гамароне-памороне', 'True_Ans_all': 'left', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+170.3250 	DATA 	Keypress: left
+170.3278 	INFO 	Keyboard events cleared
+170.3276 	EXP 	image_2: autoDraw = False
+170.3276 	EXP 	text_label_2: autoDraw = False
+170.3276 	EXP 	text_instr_3: autoDraw = False
+170.3276 	EXP 	image_2: image = 'img33.png'
+170.3276 	EXP 	text_label_2: height = 0.05
+170.3276 	EXP 	text_label_2: height = 0.05
+170.3276 	EXP 	text_label_2: height = 0.05
+170.3276 	EXP 	text_label_2: text = 'гамароне-памороне'
+170.3276 	EXP 	image_2: autoDraw = True
+170.3276 	EXP 	text_label_2: autoDraw = True
+170.3276 	EXP 	text_instr_3: autoDraw = True
+170.6010 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'ImageFile_All_list': 'img37.png', 'LabelText_all': 'фелентино-мелентино', 'True_Ans_all': 'left', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+170.6194 	DATA 	Keypress: left
+170.6220 	INFO 	Keyboard events cleared
+170.6219 	EXP 	image_2: autoDraw = False
+170.6219 	EXP 	text_label_2: autoDraw = False
+170.6219 	EXP 	text_instr_3: autoDraw = False
+170.6219 	EXP 	image_2: image = 'img37.png'
+170.6219 	EXP 	text_label_2: height = 0.05
+170.6219 	EXP 	text_label_2: height = 0.05
+170.6219 	EXP 	text_label_2: height = 0.05
+170.6219 	EXP 	text_label_2: text = 'фелентино-мелентино'
+170.6219 	EXP 	image_2: autoDraw = True
+170.6219 	EXP 	text_label_2: autoDraw = True
+170.6219 	EXP 	text_instr_3: autoDraw = True
+170.9006 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'ImageFile_All_list': 'img16.png', 'LabelText_all': 'ТЕРАЛЕТТО-МЕРАЛЕТТО', 'True_Ans_all': 'right', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+170.9358 	DATA 	Keypress: left
+170.9384 	INFO 	Keyboard events cleared
+170.9382 	EXP 	image_2: autoDraw = False
+170.9382 	EXP 	text_label_2: autoDraw = False
+170.9382 	EXP 	text_instr_3: autoDraw = False
+170.9382 	EXP 	image_2: image = 'img16.png'
+170.9382 	EXP 	text_label_2: height = 0.05
+170.9382 	EXP 	text_label_2: height = 0.05
+170.9382 	EXP 	text_label_2: height = 0.05
+170.9382 	EXP 	text_label_2: text = 'ТЕРАЛЕТТО-МЕРАЛЕТТО'
+170.9382 	EXP 	image_2: autoDraw = True
+170.9382 	EXP 	text_label_2: autoDraw = True
+170.9382 	EXP 	text_instr_3: autoDraw = True
+171.1840 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'ImageFile_All_list': 'img48.png', 'LabelText_all': 'БАРИЛОРА-ПАЛИЛОРА', 'True_Ans_all': 'left', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+171.2023 	DATA 	Keypress: left
+171.2050 	INFO 	Keyboard events cleared
+171.2048 	EXP 	image_2: autoDraw = False
+171.2048 	EXP 	text_label_2: autoDraw = False
+171.2048 	EXP 	text_instr_3: autoDraw = False
+171.2048 	EXP 	image_2: image = 'img48.png'
+171.2048 	EXP 	text_label_2: height = 0.05
+171.2048 	EXP 	text_label_2: height = 0.05
+171.2048 	EXP 	text_label_2: height = 0.05
+171.2048 	EXP 	text_label_2: text = 'БАРИЛОРА-ПАЛИЛОРА'
+171.2048 	EXP 	image_2: autoDraw = True
+171.2048 	EXP 	text_label_2: autoDraw = True
+171.2048 	EXP 	text_instr_3: autoDraw = True
+171.4398 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'ImageFile_All_list': 'img23.png', 'LabelText_all': 'ромасора-комасора', 'True_Ans_all': 'right', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+171.4621 	DATA 	Keypress: left
+171.4648 	INFO 	Keyboard events cleared
+171.4647 	EXP 	image_2: autoDraw = False
+171.4647 	EXP 	text_label_2: autoDraw = False
+171.4647 	EXP 	text_instr_3: autoDraw = False
+171.4647 	EXP 	image_2: image = 'img23.png'
+171.4647 	EXP 	text_label_2: height = 0.05
+171.4647 	EXP 	text_label_2: height = 0.05
+171.4647 	EXP 	text_label_2: height = 0.05
+171.4647 	EXP 	text_label_2: text = 'ромасора-комасора'
+171.4647 	EXP 	image_2: autoDraw = True
+171.4647 	EXP 	text_label_2: autoDraw = True
+171.4647 	EXP 	text_instr_3: autoDraw = True
+171.7343 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'ImageFile_All_list': 'img22.png', 'LabelText_all': 'ВАЛЕНОНЕ-МАЛЕНОНЕ', 'True_Ans_all': 'right', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+171.7526 	DATA 	Keypress: left
+171.7552 	INFO 	Keyboard events cleared
+171.7551 	EXP 	image_2: autoDraw = False
+171.7551 	EXP 	text_label_2: autoDraw = False
+171.7551 	EXP 	text_instr_3: autoDraw = False
+171.7551 	EXP 	image_2: image = 'img22.png'
+171.7551 	EXP 	text_label_2: height = 0.05
+171.7551 	EXP 	text_label_2: height = 0.05
+171.7551 	EXP 	text_label_2: height = 0.05
+171.7551 	EXP 	text_label_2: text = 'ВАЛЕНОНЕ-МАЛЕНОНЕ'
+171.7551 	EXP 	image_2: autoDraw = True
+171.7551 	EXP 	text_label_2: autoDraw = True
+171.7551 	EXP 	text_instr_3: autoDraw = True
+172.0071 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'ImageFile_All_list': 'img2.png', 'LabelText_all': 'ПАЛЕВИНО-ТАЛЕВИНО', 'True_Ans_all': 'right', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+172.0247 	DATA 	Keypress: left
+172.0273 	INFO 	Keyboard events cleared
+172.0272 	EXP 	image_2: autoDraw = False
+172.0272 	EXP 	text_label_2: autoDraw = False
+172.0272 	EXP 	text_instr_3: autoDraw = False
+172.0272 	EXP 	image_2: image = 'img2.png'
+172.0272 	EXP 	text_label_2: height = 0.05
+172.0272 	EXP 	text_label_2: height = 0.05
+172.0272 	EXP 	text_label_2: height = 0.05
+172.0272 	EXP 	text_label_2: text = 'ПАЛЕВИНО-ТАЛЕВИНО'
+172.0272 	EXP 	image_2: autoDraw = True
+172.0272 	EXP 	text_label_2: autoDraw = True
+172.0272 	EXP 	text_instr_3: autoDraw = True
+172.3009 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'ImageFile_All_list': 'img8.png', 'LabelText_all': 'ТАРЕМАТТО-КАРЕМАТТО', 'True_Ans_all': 'right', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+172.3206 	DATA 	Keypress: left
+172.3232 	INFO 	Keyboard events cleared
+172.3230 	EXP 	image_2: autoDraw = False
+172.3230 	EXP 	text_label_2: autoDraw = False
+172.3230 	EXP 	text_instr_3: autoDraw = False
+172.3230 	EXP 	image_2: image = 'img8.png'
+172.3230 	EXP 	text_label_2: height = 0.05
+172.3230 	EXP 	text_label_2: height = 0.05
+172.3230 	EXP 	text_label_2: height = 0.05
+172.3230 	EXP 	text_label_2: text = 'ТАРЕМАТТО-КАРЕМАТТО'
+172.3230 	EXP 	image_2: autoDraw = True
+172.3230 	EXP 	text_label_2: autoDraw = True
+172.3230 	EXP 	text_instr_3: autoDraw = True
+172.5670 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'ImageFile_All_list': 'img11.png', 'LabelText_all': 'таривора-каривора', 'True_Ans_all': 'right', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+172.6045 	DATA 	Keypress: left
+172.6072 	INFO 	Keyboard events cleared
+172.6070 	EXP 	image_2: autoDraw = False
+172.6070 	EXP 	text_label_2: autoDraw = False
+172.6070 	EXP 	text_instr_3: autoDraw = False
+172.6070 	EXP 	image_2: image = 'img11.png'
+172.6070 	EXP 	text_label_2: height = 0.05
+172.6070 	EXP 	text_label_2: height = 0.05
+172.6070 	EXP 	text_label_2: height = 0.05
+172.6070 	EXP 	text_label_2: text = 'таривора-каривора'
+172.6070 	EXP 	image_2: autoDraw = True
+172.6070 	EXP 	text_label_2: autoDraw = True
+172.6070 	EXP 	text_instr_3: autoDraw = True
+172.8407 	DATA 	Keypress: left
+172.8503 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'ImageFile_All_list': 'img18.png', 'LabelText_all': 'СУРАНЕЛЛО-ЛУРАНЕЛЛО', 'True_Ans_all': 'right', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+172.8681 	INFO 	Keyboard events cleared
+172.8680 	EXP 	image_2: autoDraw = False
+172.8680 	EXP 	text_label_2: autoDraw = False
+172.8680 	EXP 	text_instr_3: autoDraw = False
+172.8680 	EXP 	image_2: image = 'img18.png'
+172.8680 	EXP 	text_label_2: height = 0.05
+172.8680 	EXP 	text_label_2: height = 0.05
+172.8680 	EXP 	text_label_2: height = 0.05
+172.8680 	EXP 	text_label_2: text = 'СУРАНЕЛЛО-ЛУРАНЕЛЛО'
+172.8680 	EXP 	image_2: autoDraw = True
+172.8680 	EXP 	text_label_2: autoDraw = True
+172.8680 	EXP 	text_instr_3: autoDraw = True
+173.1506 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'ImageFile_All_list': 'img46.png', 'LabelText_all': 'КАЛЕРОНЕ-ВАЛЕРОНЕ', 'True_Ans_all': 'left', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+173.1686 	DATA 	Keypress: left
+173.1713 	INFO 	Keyboard events cleared
+173.1711 	EXP 	image_2: autoDraw = False
+173.1711 	EXP 	text_label_2: autoDraw = False
+173.1711 	EXP 	text_instr_3: autoDraw = False
+173.1711 	EXP 	image_2: image = 'img46.png'
+173.1711 	EXP 	text_label_2: height = 0.05
+173.1711 	EXP 	text_label_2: height = 0.05
+173.1711 	EXP 	text_label_2: height = 0.05
+173.1711 	EXP 	text_label_2: text = 'КАЛЕРОНЕ-ВАЛЕРОНЕ'
+173.1711 	EXP 	image_2: autoDraw = True
+173.1711 	EXP 	text_label_2: autoDraw = True
+173.1711 	EXP 	text_instr_3: autoDraw = True
+173.4402 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'ImageFile_All_list': 'img15.png', 'LabelText_all': 'кареттето-мареттето', 'True_Ans_all': 'right', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+173.4573 	DATA 	Keypress: left
+173.4600 	INFO 	Keyboard events cleared
+173.4599 	EXP 	image_2: autoDraw = False
+173.4599 	EXP 	text_label_2: autoDraw = False
+173.4599 	EXP 	text_instr_3: autoDraw = False
+173.4599 	EXP 	image_2: image = 'img15.png'
+173.4599 	EXP 	text_label_2: height = 0.05
+173.4599 	EXP 	text_label_2: height = 0.05
+173.4599 	EXP 	text_label_2: height = 0.05
+173.4599 	EXP 	text_label_2: text = 'кареттето-мареттето'
+173.4599 	EXP 	image_2: autoDraw = True
+173.4599 	EXP 	text_label_2: autoDraw = True
+173.4599 	EXP 	text_instr_3: autoDraw = True
+173.6849 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'ImageFile_All_list': 'img26.png', 'LabelText_all': 'ДАЛЕТИНО-ПАЛЕТИНО', 'True_Ans_all': 'left', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+173.7030 	DATA 	Keypress: left
+173.7057 	INFO 	Keyboard events cleared
+173.7055 	EXP 	image_2: autoDraw = False
+173.7055 	EXP 	text_label_2: autoDraw = False
+173.7055 	EXP 	text_instr_3: autoDraw = False
+173.7055 	EXP 	image_2: image = 'img26.png'
+173.7055 	EXP 	text_label_2: height = 0.05
+173.7055 	EXP 	text_label_2: height = 0.05
+173.7055 	EXP 	text_label_2: height = 0.05
+173.7055 	EXP 	text_label_2: text = 'ДАЛЕТИНО-ПАЛЕТИНО'
+173.7055 	EXP 	image_2: autoDraw = True
+173.7055 	EXP 	text_label_2: autoDraw = True
+173.7055 	EXP 	text_instr_3: autoDraw = True
+173.9555 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'ImageFile_All_list': 'img28.png', 'LabelText_all': 'ВАЛЕНТЕТТО-МАЛЕНТЕТТО', 'True_Ans_all': 'left', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+173.9704 	DATA 	Keypress: left
+173.9732 	INFO 	Keyboard events cleared
+173.9730 	EXP 	image_2: autoDraw = False
+173.9730 	EXP 	text_label_2: autoDraw = False
+173.9730 	EXP 	text_instr_3: autoDraw = False
+173.9730 	EXP 	image_2: image = 'img28.png'
+173.9730 	EXP 	text_label_2: height = 0.05
+173.9730 	EXP 	text_label_2: height = 0.05
+173.9730 	EXP 	text_label_2: height = 0.05
+173.9730 	EXP 	text_label_2: text = 'ВАЛЕНТЕТТО-МАЛЕНТЕТТО'
+173.9730 	EXP 	image_2: autoDraw = True
+173.9730 	EXP 	text_label_2: autoDraw = True
+173.9730 	EXP 	text_instr_3: autoDraw = True
+174.2338 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'ImageFile_All_list': 'img14.png', 'LabelText_all': 'БЕРЕНДИНО-ФЕРЕНДИНО', 'True_Ans_all': 'right', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+174.2509 	DATA 	Keypress: left
+174.2536 	INFO 	Keyboard events cleared
+174.2534 	EXP 	image_2: autoDraw = False
+174.2534 	EXP 	text_label_2: autoDraw = False
+174.2534 	EXP 	text_instr_3: autoDraw = False
+174.2534 	EXP 	image_2: image = 'img14.png'
+174.2534 	EXP 	text_label_2: height = 0.05
+174.2534 	EXP 	text_label_2: height = 0.05
+174.2534 	EXP 	text_label_2: height = 0.05
+174.2534 	EXP 	text_label_2: text = 'БЕРЕНДИНО-ФЕРЕНДИНО'
+174.2534 	EXP 	image_2: autoDraw = True
+174.2534 	EXP 	text_label_2: autoDraw = True
+174.2534 	EXP 	text_instr_3: autoDraw = True
+174.4898 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'ImageFile_All_list': 'img45.png', 'LabelText_all': 'лоремоне-форемоне', 'True_Ans_all': 'left', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+174.5080 	DATA 	Keypress: left
+174.5105 	INFO 	Keyboard events cleared
+174.5103 	EXP 	image_2: autoDraw = False
+174.5103 	EXP 	text_label_2: autoDraw = False
+174.5103 	EXP 	text_instr_3: autoDraw = False
+174.5103 	EXP 	image_2: image = 'img45.png'
+174.5103 	EXP 	text_label_2: height = 0.05
+174.5103 	EXP 	text_label_2: height = 0.05
+174.5103 	EXP 	text_label_2: height = 0.05
+174.5103 	EXP 	text_label_2: text = 'лоремоне-форемоне'
+174.5103 	EXP 	image_2: autoDraw = True
+174.5103 	EXP 	text_label_2: autoDraw = True
+174.5103 	EXP 	text_instr_3: autoDraw = True
+174.7513 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'ImageFile_All_list': 'img1.png', 'LabelText_all': 'валичино-саличино', 'True_Ans_all': 'right', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+174.7710 	DATA 	Keypress: left
+174.7735 	INFO 	Keyboard events cleared
+174.7734 	EXP 	image_2: autoDraw = False
+174.7734 	EXP 	text_label_2: autoDraw = False
+174.7734 	EXP 	text_instr_3: autoDraw = False
+174.7734 	EXP 	image_2: image = 'img1.png'
+174.7734 	EXP 	text_label_2: height = 0.05
+174.7734 	EXP 	text_label_2: height = 0.05
+174.7734 	EXP 	text_label_2: height = 0.05
+174.7734 	EXP 	text_label_2: text = 'валичино-саличино'
+174.7734 	EXP 	image_2: autoDraw = True
+174.7734 	EXP 	text_label_2: autoDraw = True
+174.7734 	EXP 	text_instr_3: autoDraw = True
+174.9838 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'ImageFile_All_list': 'img34.png', 'LabelText_all': 'СИМАДОНЕ-РИМАДОНЕ', 'True_Ans_all': 'left', 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+175.0020 	DATA 	Keypress: left
+175.0047 	INFO 	Keyboard events cleared
+175.0046 	EXP 	image_2: autoDraw = False
+175.0046 	EXP 	text_label_2: autoDraw = False
+175.0046 	EXP 	text_instr_3: autoDraw = False
+175.0046 	EXP 	image_2: image = 'img34.png'
+175.0046 	EXP 	text_label_2: height = 0.05
+175.0046 	EXP 	text_label_2: height = 0.05
+175.0046 	EXP 	text_label_2: height = 0.05
+175.0046 	EXP 	text_label_2: text = 'СИМАДОНЕ-РИМАДОНЕ'
+175.0046 	EXP 	image_2: autoDraw = True
+175.0046 	EXP 	text_label_2: autoDraw = True
+175.0046 	EXP 	text_instr_3: autoDraw = True
+175.2341 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'ImageFile_All_list': 'img12.png', 'LabelText_all': 'МАЛИВОРА-БАЛИВОРА', 'True_Ans_all': 'right', 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+175.2535 	DATA 	Keypress: left
+175.2562 	INFO 	Keyboard events cleared
+175.2561 	EXP 	image_2: autoDraw = False
+175.2561 	EXP 	text_label_2: autoDraw = False
+175.2561 	EXP 	text_instr_3: autoDraw = False
+175.2561 	EXP 	image_2: image = 'img12.png'
+175.2561 	EXP 	text_label_2: height = 0.05
+175.2561 	EXP 	text_label_2: height = 0.05
+175.2561 	EXP 	text_label_2: height = 0.05
+175.2561 	EXP 	text_label_2: text = 'МАЛИВОРА-БАЛИВОРА'
+175.2561 	EXP 	image_2: autoDraw = True
+175.2561 	EXP 	text_label_2: autoDraw = True
+175.2561 	EXP 	text_instr_3: autoDraw = True
+175.4736 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'ImageFile_All_list': 'img24.png', 'LabelText_all': 'ФАРИМОРА-САРИМОРА', 'True_Ans_all': 'right', 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+175.4928 	DATA 	Keypress: left
+175.4953 	INFO 	Keyboard events cleared
+175.4952 	EXP 	image_2: autoDraw = False
+175.4952 	EXP 	text_label_2: autoDraw = False
+175.4952 	EXP 	text_instr_3: autoDraw = False
+175.4952 	EXP 	image_2: image = 'img24.png'
+175.4952 	EXP 	text_label_2: height = 0.05
+175.4952 	EXP 	text_label_2: height = 0.05
+175.4952 	EXP 	text_label_2: height = 0.05
+175.4952 	EXP 	text_label_2: text = 'ФАРИМОРА-САРИМОРА'
+175.4952 	EXP 	image_2: autoDraw = True
+175.4952 	EXP 	text_label_2: autoDraw = True
+175.4952 	EXP 	text_instr_3: autoDraw = True
+175.7417 	DATA 	Keypress: left
+175.7479 	EXP 	image_2: autoDraw = False
+175.7479 	EXP 	text_label_2: autoDraw = False
+175.7479 	EXP 	text_instr_3: autoDraw = False
+175.7479 	EXP 	text_fin: autoDraw = True
+175.9907 	DATA 	Keypress: left
+177.7372 	EXP 	text_fin: autoDraw = False
+177.7372 	EXP 	text_fin: autoDraw = False
+177.7391 	EXP 	con_exp: status = STOPPED
+177.7576 	INFO 	saved data to '/Users/ashevelyova/Downloads/inc_brainrotexp/data/285313_con_exp_2025-06-19_13h52.55.315.csv'
+177.7602 	INFO 	saved data to /Users/ashevelyova/Downloads/inc_brainrotexp/data/285313_con_exp_2025-06-19_13h52.55.315.psydat
+178.1816 	DEBUG 	Saving data for con_exp ExperimentHandler

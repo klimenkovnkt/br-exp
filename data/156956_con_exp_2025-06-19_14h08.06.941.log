@@ -1,0 +1,139 @@
+12.2188 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+12.2208 	INFO 	Loaded monitor calibration from ['2022_11_15 11:54']
+12.3949 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b790>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b730>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b4f0>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff702d012b0>, multiSample=False, name='window1', numSamples=2, pos=[535.0, 328.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.3949 	EXP 	window1: backgroundImage = ''
+12.3949 	EXP 	window1: backgroundFit = 'none'
+12.3973 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b8b0>
+12.3992 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b8b0>
+12.4033 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b8b0>
+12.4056 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b8b0>
+12.4154 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4161 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4165 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4171 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4177 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4179 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4183 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4189 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4192 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4194 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4198 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4202 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4206 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4210 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4214 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4218 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4222 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4224 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4226 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4232 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4234 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4240 	DEBUG 	Uploading Texture Font fontname to graphics card
+12.4268 	DEBUG 	Upload of Texture Font fontname complete
+12.4298 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b8b0>
+12.4316 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b8b0>
+12.4338 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b8b0>
+12.4360 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7ff702d9b8b0>
+12.4387 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4393 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4399 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.4400 	DEBUG 	Uploading Texture Font fontname to graphics card
+12.4418 	DEBUG 	Upload of Texture Font fontname complete
+12.4431 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.4431 	EXP 	window1: recordFrameIntervals = False
+12.5783 	EXP 	window1: recordFrameIntervals = True
+13.4105 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+13.4110 	EXP 	window1: mouseVisible = False
+13.4114 	EXP 	window1: mouseVisible = False
+13.4115 	EXP 	window1: mouseVisible = False
+13.4124 	EXP 	window1: mouseVisible = False
+13.4132 	EXP 	window1: mouseVisible = False
+13.4193 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4198 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4208 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4220 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4231 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4243 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4247 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4257 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4268 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4278 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4281 	DEBUG 	Uploading Texture Font fontname to graphics card
+13.4311 	DEBUG 	Upload of Texture Font fontname complete
+13.4326 	EXP 	window1: mouseVisible = False
+13.4327 	EXP 	window1: mouseVisible = False
+13.4332 	EXP 	window1: mouseVisible = False
+13.4337 	EXP 	window1: mouseVisible = False
+13.4484 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+15.2675 	INFO 	keyboard.Keyboard is using iohub backend.
+15.2675 	INFO 	keyboard.Keyboard is using iohub backend.
+15.2675 	INFO 	keyboard.Keyboard is using iohub backend.
+15.2675 	INFO 	keyboard.Keyboard is using iohub backend.
+15.2676 	INFO 	keyboard.Keyboard is using iohub backend.
+15.2676 	INFO 	keyboard.Keyboard is using iohub backend.
+15.2676 	EXP 	con_exp: status = STARTED
+15.2679 	EXP 	window1: mouseVisible = False
+15.3083 	EXP 	Created text_instr_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_instr_1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.3084 	EXP 	window1: mouseVisible = False
+15.3089 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.3089 	EXP 	window1: mouseVisible = False
+15.3116 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.3117 	EXP 	window1: mouseVisible = False
+15.3273 	EXP 	Created image_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.4, 0.4]), texRes=128.0, units='height', win=Window(...))
+15.3273 	EXP 	window1: mouseVisible = False
+15.3277 	EXP 	Created text_label_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_label_1', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.3278 	EXP 	window1: mouseVisible = False
+15.3339 	EXP 	Created text_ans_quest_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_ans_quest_right', opacity=1, ori=0.0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='стрелка вправо - ответ "да"', units='height', win=Window(...), wrapWidth=1)
+15.3340 	EXP 	window1: mouseVisible = False
+15.3358 	EXP 	Created text_ans_quest_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_ans_quest_left', opacity=1, ori=0.0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='стрелка влево - ответ "нет"', units='height', win=Window(...), wrapWidth=1)
+15.3359 	EXP 	window1: mouseVisible = False
+15.3444 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.3445 	EXP 	window1: mouseVisible = False
+15.3473 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.4, 0.4]), texRes=128.0, units='height', win=Window(...))
+15.3474 	EXP 	window1: mouseVisible = False
+15.3477 	EXP 	Created text_label_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_label_2', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.3478 	EXP 	window1: mouseVisible = False
+15.3534 	EXP 	Created text_instr_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='text_instr_3', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.3535 	EXP 	window1: mouseVisible = False
+15.3619 	EXP 	Created text_fin = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_fin', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0245 	WARNING 	t of last frame was 21.15ms (=1/47)
+0.0245 	EXP 	text_instr_1: autoDraw = True
+0.4939 	INFO 	Keyboard events cleared
+3.4412 	WARNING 	t of last frame was 214.16ms (=1/4)
+5.1403 	WARNING 	t of last frame was 291.65ms (=1/3)
+9.2594 	WARNING 	t of last frame was 532.82ms (=1/1)
+11.0538 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.0539 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.0682 	DATA 	Mouse: wheel shift=(0,1), pos=(61,550)
+11.0846 	DATA 	Mouse: wheel shift=(0,1), pos=(61,550)
+11.1015 	DATA 	Mouse: wheel shift=(0,1), pos=(61,550)
+11.1180 	DATA 	Mouse: wheel shift=(0,1), pos=(61,550)
+11.1346 	DATA 	Mouse: wheel shift=(0,1), pos=(61,550)
+11.1514 	DATA 	Mouse: wheel shift=(0,1), pos=(61,550)
+11.1679 	DATA 	Mouse: wheel shift=(0,1), pos=(61,550)
+11.1846 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.2015 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.2177 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.2344 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.2512 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.2680 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.2845 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.3009 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.3179 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.3511 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.3684 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+11.3686 	DATA 	Mouse: wheel shift=(0,0), pos=(61,550)
+12.4974 	DATA 	Mouse: wheel shift=(0,0), pos=(143,344)
+12.4976 	DATA 	Mouse: wheel shift=(0,0), pos=(143,344)
+12.9549 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+14.1269 	EXP 	con_exp: status = STOPPED
+14.1305 	EXP 	text_instr_1: autoDraw = False
+14.1319 	EXP 	con_exp: status = STOPPED
+14.1367 	INFO 	saved data to '/Users/ashevelyova/Downloads/inc_brainrotexp/data/156956_con_exp_2025-06-19_14h08.06.941.csv'
+14.1377 	INFO 	saved data to /Users/ashevelyova/Downloads/inc_brainrotexp/data/156956_con_exp_2025-06-19_14h08.06.941.psydat
+14.1734 	DATA 	Keypress: escape
+14.2279 	EXP 	window1: mouseVisible = True
+14.6148 	DEBUG 	Saving data for con_exp ExperimentHandler

@@ -7,8 +7,8 @@
     <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
     <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
     <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
-    <Param val="" valType="str" updates="None" name="End Message"/>
-    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
     <Param val="True" valType="bool" updates="None" name="Force stereo"/>
     <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
     <Param val="" valType="str" updates="None" name="HTML path"/>
@@ -25,8 +25,8 @@
     <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
     <Param val="False" valType="bool" updates="None" name="Show mouse"/>
     <Param val="height" valType="str" updates="None" name="Units"/>
-    <Param val="2024.2.0" valType="str" updates="None" name="Use version"/>
-    <Param val="[1470, 956]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
     <Param val="none" valType="str" updates="None" name="backgroundFit"/>
     <Param val="" valType="str" updates="None" name="backgroundImg"/>
     <Param val="avg" valType="str" updates="None" name="blendMode"/>
@@ -46,7 +46,7 @@
     <Param val="False" valType="bool" updates="None" name="elSimMode"/>
     <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
     <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
-    <Param val="con_exp" valType="str" updates="None" name="expName"/>
+    <Param val="popitka2" valType="str" updates="None" name="expName"/>
     <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
     <Param val="None" valType="str" updates="None" name="eyetracker"/>
     <Param val="" valType="code" updates="None" name="frameRate"/>
@@ -54,13 +54,12 @@
     <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
     <Param val="4242" valType="num" updates="None" name="gpPort"/>
     <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
-    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
     <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
-    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
     <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
     <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
     <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
-    <Param val="scene_camera.json" valType="file" updates="None" name="plCompanionCameraCalibration"/>
     <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
     <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
     <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
@@ -71,7 +70,7 @@
     <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
     <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
     <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
-    <Param val="0" valType="code" updates="None" name="runMode"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
     <Param val="False" valType="bool" updates="None" name="rush"/>
     <Param val="time" valType="str" updates="None" name="sortColumns"/>
     <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
@@ -81,6 +80,24 @@
     <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
   </Settings>
   <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
     <Routine name="instr_1">
       <RoutineSettingsComponent name="instr_1" plugin="None">
         <Param val="none" valType="str" updates="None" name="backgroundFit"/>
@@ -641,7 +658,7 @@
     <LoopInitiator loopType="TrialHandler" name="loop_1_block">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'ImageFile': 'img1.png', 'LabelText': 'валичино-саличино', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img2.png', 'LabelText': 'ПАЛЕВИНО-ТАЛЕВИНО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;облакино&quot;?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img3.png', 'LabelText': 'бенедетто-фенедетто', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img4.png', 'LabelText': 'СИЛЬВЕСТЕТТО-ДИЛЬВЕСТЕТТО', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img5.png', 'LabelText': 'ралентелло-палентелло', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;пейзажини&quot;?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img6.png', 'LabelText': 'КАРОФЕЛЛО-МАРОФЕЛЛО', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img7.png', 'LabelText': 'марилитто-сарилитто', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img8.png', 'LabelText': 'ТАРЕМАТТО-КАРЕМАТТО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с  &quot;ветератто&quot;?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img9.png', 'LabelText': 'маривоне-саривоне', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img10.png', 'LabelText': 'ТАЛЕРОНЕ-КАРЕЛОНЕ', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img11.png', 'LabelText': 'таривора-каривора', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;туманора&quot;?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img12.png', 'LabelText': 'МАЛИВОРА-БАЛИВОРА', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img13.png', 'LabelText': 'миралино-киралино', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img14.png', 'LabelText': 'БЕРЕНДИНО-ФЕРЕНДИНО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;ветеритто&quot;?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img15.png', 'LabelText': 'кареттето-мареттето', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img16.png', 'LabelText': 'ТЕРАЛЕТТО-МЕРАЛЕТТО', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img17.png', 'LabelText': 'тераделло-мераделло', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;облакино&quot;?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img18.png', 'LabelText': 'СУРАНЕЛЛО-ЛУРАНЕЛЛО', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img19.png', 'LabelText': 'фарензитто-дарензитто', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img20.png', 'LabelText': 'ВАЛЕКИТТО-МАЛЕКИТТО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;пейзажитто&quot;?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img21.png', 'LabelText': 'фалероне-далероне', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img22.png', 'LabelText': 'ВАЛЕНОНЕ-МАЛЕНОНЕ', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img23.png', 'LabelText': 'ромасора-комасора', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;туманетто&quot;?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img24.png', 'LabelText': 'ФАРИМОРА-САРИМОРА', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="incon_stim.xlsx" valType="file"/>
+      <Param name="conditionsFile" updates="None" val="/Users/ashevelyova/Downloads/inc_brainrotexp/incon_stim.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
@@ -654,19 +671,19 @@
     <Routine name="ans_quest_1"/>
     <LoopTerminator name="loop_1_block"/>
     <Routine name="instr_2"/>
-    <LoopInitiator loopType="TrialHandler" name="loop_2_block">
+    <LoopInitiator loopType="TrialHandler" name="loop_2_blocks">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'ImageFile_All_list': 'img1.png', 'LabelText_all': 'валичино-саличино', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img2.png', 'LabelText_all': 'ПАЛЕВИНО-ТАЛЕВИНО', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img3.png', 'LabelText_all': 'бенедетто-фенедетто', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img4.png', 'LabelText_all': 'СИЛЬВЕСТЕТТО-ДИЛЬВЕСТЕТТО', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img5.png', 'LabelText_all': 'ралентелло-палентелло', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img6.png', 'LabelText_all': 'КАРОФЕЛЛО-МАРОФЕЛЛО', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img7.png', 'LabelText_all': 'марилитто-сарилитто', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img8.png', 'LabelText_all': 'ТАРЕМАТТО-КАРЕМАТТО', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img9.png', 'LabelText_all': 'маривоне-саривоне', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img10.png', 'LabelText_all': 'ТАЛЕРОНЕ-КАРЕЛОНЕ', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img11.png', 'LabelText_all': 'таривора-каривора', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img12.png', 'LabelText_all': 'МАЛИВОРА-БАЛИВОРА', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img13.png', 'LabelText_all': 'миралино-киралино', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img14.png', 'LabelText_all': 'БЕРЕНДИНО-ФЕРЕНДИНО', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img15.png', 'LabelText_all': 'кареттето-мареттето', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img16.png', 'LabelText_all': 'ТЕРАЛЕТТО-МЕРАЛЕТТО', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img17.png', 'LabelText_all': 'тераделло-мераделло', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img18.png', 'LabelText_all': 'СУРАНЕЛЛО-ЛУРАНЕЛЛО', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img19.png', 'LabelText_all': 'фарензитто-дарензитто', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img20.png', 'LabelText_all': 'ВАЛЕКИТТО-МАЛЕКИТТО', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img21.png', 'LabelText_all': 'фалероне-далероне', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img22.png', 'LabelText_all': 'ВАЛЕНОНЕ-МАЛЕНОНЕ', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img23.png', 'LabelText_all': 'ромасора-комасора', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img24.png', 'LabelText_all': 'ФАРИМОРА-САРИМОРА', 'True_Ans_all': 'right'}, {'ImageFile_All_list': 'img25.png', 'LabelText_all': 'ромалино-комалино', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img26.png', 'LabelText_all': 'ДАЛЕТИНО-ПАЛЕТИНО', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img27.png', 'LabelText_all': 'рембебетто-пемферетто', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img28.png', 'LabelText_all': 'ВАЛЕНТЕТТО-МАЛЕНТЕТТО', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img29.png', 'LabelText_all': 'палеттелло-талеттело', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img30.png', 'LabelText_all': 'ФЕЛЛИДЕЛЛО-МЕЛЛИДЕЛЛО', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img31.png', 'LabelText_all': 'лорематто-форематто', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img32.png', 'LabelText_all': 'ГАЛЕРДИТТО-ПАЛЕРДИТТО', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img33.png', 'LabelText_all': 'гамароне-памороне', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img34.png', 'LabelText_all': 'СИМАДОНЕ-РИМАДОНЕ', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img35.png', 'LabelText_all': 'ларимвора-маривора', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img36.png', 'LabelText_all': 'ДАРИМОРА-ПАРИМОРА', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img37.png', 'LabelText_all': 'фелентино-мелентино', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img38.png', 'LabelText_all': 'ЛАРИЧИНО-МАРИЧИНО', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img39.png', 'LabelText_all': 'гередетто-баридетто', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img40.png', 'LabelText_all': 'ГЕРОТЕТТО-ЛЕРОТЕТТО', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img41.png', 'LabelText_all': 'данирелло-ланирелло', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img42.png', 'LabelText_all': 'БАРОТЕЛЛО-ПАРОТЕЛЛО', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img43.png', 'LabelText_all': 'симаритто-римаритто', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img44.png', 'LabelText_all': 'КАЛЕМИТТО-РАМЕЛИТТО', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img45.png', 'LabelText_all': 'лоремоне-форемоне', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img46.png', 'LabelText_all': 'КАЛЕРОНЕ-ВАЛЕРОНЕ', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img47.png', 'LabelText_all': 'телевора-малевора', 'True_Ans_all': 'left'}, {'ImageFile_All_list': 'img48.png', 'LabelText_all': 'БАРИЛОРА-ПАЛИЛОРА', 'True_Ans_all': 'left'}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="all_incongr_stim_list.xlsx" valType="file"/>
+      <Param name="conditionsFile" updates="None" val="/Users/ashevelyova/Downloads/inc_brainrotexp/all_incongr_stim_list.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="num"/>
-      <Param name="name" updates="None" val="loop_2_block" valType="code"/>
+      <Param name="name" updates="None" val="loop_2_blocks" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="pic2"/>
-    <LoopTerminator name="loop_2_block"/>
+    <LoopTerminator name="loop_2_blocks"/>
     <Routine name="final_text"/>
   </Flow>
 </PsychoPy2experiment>
