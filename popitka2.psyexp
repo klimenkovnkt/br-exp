@@ -70,7 +70,7 @@
     <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
     <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
     <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
-    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
     <Param val="False" valType="bool" updates="None" name="rush"/>
     <Param val="time" valType="str" updates="None" name="sortColumns"/>
     <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
@@ -634,13 +634,231 @@
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
     </Routine>
+    <Routine name="demo_sex">
+      <RoutineSettingsComponent name="demo_sex" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="demo_sex" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_demo_1" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_demo_1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Добрый день!&amp;#10;Спасибо, что согласились принять участие в исследовании!&amp;#10;Пожалуйста, отметьте Ваш пол ниже" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="slider" plugin="None">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="0" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="('Женский', 'Мужской', 'Не хочу указывать')" valType="list" updates="constant" name="labels"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="radio" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4, 5)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </SliderComponent>
+    </Routine>
+    <Routine name="demo_age">
+      <RoutineSettingsComponent name="demo_age" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="demo_age" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_demo_age" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_demo_age" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Пожалуйста, введите Ваш возраст числом (например, 31)" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextboxComponent name="textbox" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="1" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="editable"/>
+        <Param val="0.0000, 0.0000, 0.0000" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="textbox" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Ввести возраст" valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.25, 0.25)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextComponent name="text_age_space" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_age_space" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Нажмите &quot;пробел&quot; после ввода возраста числом, чтобы продолжить" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_age" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_age" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
   </Routines>
   <Flow>
+    <Routine name="demo_sex"/>
+    <Routine name="demo_age"/>
     <Routine name="instr_1"/>
     <LoopInitiator loopType="TrialHandler" name="loop_1_block">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'ImageFile': 'img1.png', 'LabelText': 'валичино-саличино', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img2.png', 'LabelText': 'ПАЛЕВИНО-ТАЛЕВИНО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;облакино&quot;?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img3.png', 'LabelText': 'бенедетто-фенедетто', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img4.png', 'LabelText': 'СИЛЬВЕСТЕТТО-ДИЛЬВЕСТЕТТО', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img5.png', 'LabelText': 'ралентелло-палентелло', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;пейзажини&quot;?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img6.png', 'LabelText': 'КАРОФЕЛЛО-МАРОФЕЛЛО', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img7.png', 'LabelText': 'марилитто-сарилитто', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img8.png', 'LabelText': 'ТАРЕМАТТО-КАРЕМАТТО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с  &quot;ветератто&quot;?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img9.png', 'LabelText': 'маривоне-саривоне', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img10.png', 'LabelText': 'ТАЛЕРОНЕ-КАРЕЛОНЕ', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img11.png', 'LabelText': 'таривора-каривора', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;туманора&quot;?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img12.png', 'LabelText': 'МАЛИВОРА-БАЛИВОРА', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img13.png', 'LabelText': 'миралино-киралино', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img14.png', 'LabelText': 'БЕРЕНДИНО-ФЕРЕНДИНО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;ветеритто&quot;?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img15.png', 'LabelText': 'кареттето-мареттето', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img16.png', 'LabelText': 'ТЕРАЛЕТТО-МЕРАЛЕТТО', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img17.png', 'LabelText': 'тераделло-мераделло', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;облакино&quot;?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img18.png', 'LabelText': 'СУРАНЕЛЛО-ЛУРАНЕЛЛО', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img19.png', 'LabelText': 'фарензитто-дарензитто', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img20.png', 'LabelText': 'ВАЛЕКИТТО-МАЛЕКИТТО', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;пейзажитто&quot;?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img21.png', 'LabelText': 'фалероне-далероне', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img22.png', 'LabelText': 'ВАЛЕНОНЕ-МАЛЕНОНЕ', 'QuestionType': 'Перцептивный', 'QuestionText': 'Слово написано большими буквами?', 'CorrectAnswer_congr': 'right'}, {'ImageFile': 'img23.png', 'LabelText': 'ромасора-комасора', 'QuestionType': 'Фонологический', 'QuestionText': 'Слово рифмуется с &quot;туманетто&quot;?', 'CorrectAnswer_congr': 'left'}, {'ImageFile': 'img24.png', 'LabelText': 'ФАРИМОРА-САРИМОРА', 'QuestionType': 'Самоотнесенный', 'QuestionText': 'Ассоциируете ли Вы себя с этим словом?', 'CorrectAnswer_congr': 'right'}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="/Users/ashevelyova/Downloads/inc_brainrotexp/incon_stim.xlsx" valType="file"/>
+      <Param name="conditionsFile" updates="None" val="incon_stim.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>

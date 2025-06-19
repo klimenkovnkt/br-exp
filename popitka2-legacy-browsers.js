@@ -38,6 +38,12 @@ psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.but
 // flowScheduler gets run if the participants presses OK
 flowScheduler.add(updateInfo); // add timeStamp
 flowScheduler.add(experimentInit);
+flowScheduler.add(demo_sexRoutineBegin());
+flowScheduler.add(demo_sexRoutineEachFrame());
+flowScheduler.add(demo_sexRoutineEnd());
+flowScheduler.add(demo_ageRoutineBegin());
+flowScheduler.add(demo_ageRoutineEachFrame());
+flowScheduler.add(demo_ageRoutineEnd());
 flowScheduler.add(instr_1RoutineBegin());
 flowScheduler.add(instr_1RoutineEachFrame());
 flowScheduler.add(instr_1RoutineEnd());
@@ -182,6 +188,14 @@ async function updateInfo() {
 }
 
 
+var demo_sexClock;
+var text_demo_1;
+var slider;
+var demo_ageClock;
+var text_demo_age;
+var textbox;
+var text_age_space;
+var key_resp_age;
 var instr_1Clock;
 var text_instr_1;
 var key_resp_instr_1;
@@ -209,6 +223,85 @@ var text_fin;
 var globalClock;
 var routineTimer;
 async function experimentInit() {
+  // Initialize components for Routine "demo_sex"
+  demo_sexClock = new util.Clock();
+  text_demo_1 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_demo_1',
+    text: 'Добрый день!\nСпасибо, что согласились принять участие в исследовании!\nПожалуйста, отметьте Ваш пол ниже',
+    font: 'Open Sans',
+    units: undefined, 
+    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: 0.0 
+  });
+  
+  slider = new visual.Slider({
+    win: psychoJS.window, name: 'slider',
+    startValue: undefined,
+    size: [0.5, 0.05], pos: [0, (- 0.3)], ori: 0.0, units: psychoJS.window.units,
+    labels: ["\u0416\u0435\u043d\u0441\u043a\u0438\u0439", "\u041c\u0443\u0436\u0441\u043a\u043e\u0439", "\u041d\u0435 \u0445\u043e\u0447\u0443 \u0443\u043a\u0430\u0437\u044b\u0432\u0430\u0442\u044c"], fontSize: 0.025, ticks: [],
+    granularity: 1, style: ["RADIO"],
+    color: new util.Color('LightGray'), markerColor: new util.Color('Red'), lineColor: new util.Color('White'), 
+    opacity: undefined, fontFamily: 'Open Sans', bold: true, italic: false, depth: -1, 
+    flip: false,
+  });
+  
+  // Initialize components for Routine "demo_age"
+  demo_ageClock = new util.Clock();
+  text_demo_age = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_demo_age',
+    text: 'Пожалуйста, введите Ваш возраст числом (например, 31)',
+    font: 'Open Sans',
+    units: undefined, 
+    pos: [0, 0.1], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: 0.0 
+  });
+  
+  textbox = new visual.TextBox({
+    win: psychoJS.window,
+    name: 'textbox',
+    text: '',
+    placeholder: 'Ввести возраст',
+    font: 'Arial',
+    pos: [0, (- 0.2)], 
+    draggable: false,
+    letterHeight: 0.03,
+    lineSpacing: 1.0,
+    size: [0.25, 0.25],  units: undefined, 
+    ori: 0.0,
+    color: [(- 1.0), (- 1.0), (- 1.0)], colorSpace: 'rgb',
+    fillColor: [0.0, 0.0, 0.0], borderColor: undefined,
+    languageStyle: 'LTR',
+    bold: false, italic: false,
+    opacity: undefined,
+    padding: 0.0,
+    alignment: 'center',
+    overflow: 'visible',
+    editable: true,
+    multiline: true,
+    anchor: 'center',
+    depth: -1.0 
+  });
+  
+  text_age_space = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_age_space',
+    text: 'Нажмите "пробел" после ввода возраста числом, чтобы продолжить',
+    font: 'Open Sans',
+    units: undefined, 
+    pos: [0, (- 0.4)], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: -2.0 
+  });
+  
+  key_resp_age = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
   // Initialize components for Routine "instr_1"
   instr_1Clock = new util.Clock();
   text_instr_1 = new visual.TextStim({
@@ -390,6 +483,281 @@ async function experimentInit() {
 var t;
 var frameN;
 var continueRoutine;
+var demo_sexMaxDurationReached;
+var demo_sexMaxDuration;
+var demo_sexComponents;
+function demo_sexRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'demo_sex' ---
+    t = 0;
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    demo_sexClock.reset();
+    routineTimer.reset();
+    demo_sexMaxDurationReached = false;
+    // update component parameters for each repeat
+    slider.reset()
+    psychoJS.experiment.addData('demo_sex.started', globalClock.getTime());
+    demo_sexMaxDuration = null
+    // keep track of which components have finished
+    demo_sexComponents = [];
+    demo_sexComponents.push(text_demo_1);
+    demo_sexComponents.push(slider);
+    
+    demo_sexComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function demo_sexRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'demo_sex' ---
+    // get current time
+    t = demo_sexClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *text_demo_1* updates
+    if (t >= 0.0 && text_demo_1.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text_demo_1.tStart = t;  // (not accounting for frame time here)
+      text_demo_1.frameNStart = frameN;  // exact frame index
+      
+      text_demo_1.setAutoDraw(true);
+    }
+    
+    
+    // *slider* updates
+    if (t >= 0.0 && slider.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      slider.tStart = t;  // (not accounting for frame time here)
+      slider.frameNStart = frameN;  // exact frame index
+      
+      slider.setAutoDraw(true);
+    }
+    
+    
+    // Check slider for response to end Routine
+    if (slider.getRating() !== undefined && slider.status === PsychoJS.Status.STARTED) {
+      continueRoutine = false; }
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    demo_sexComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+      }
+    });
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function demo_sexRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'demo_sex' ---
+    demo_sexComponents.forEach( function(thisComponent) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    });
+    psychoJS.experiment.addData('demo_sex.stopped', globalClock.getTime());
+    psychoJS.experiment.addData('slider.response', slider.getRating());
+    psychoJS.experiment.addData('slider.rt', slider.getRT());
+    // the Routine "demo_sex" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+var demo_ageMaxDurationReached;
+var _key_resp_age_allKeys;
+var demo_ageMaxDuration;
+var demo_ageComponents;
+function demo_ageRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'demo_age' ---
+    t = 0;
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    demo_ageClock.reset();
+    routineTimer.reset();
+    demo_ageMaxDurationReached = false;
+    // update component parameters for each repeat
+    textbox.setText('');
+    textbox.refresh();
+    key_resp_age.keys = undefined;
+    key_resp_age.rt = undefined;
+    _key_resp_age_allKeys = [];
+    psychoJS.experiment.addData('demo_age.started', globalClock.getTime());
+    demo_ageMaxDuration = null
+    // keep track of which components have finished
+    demo_ageComponents = [];
+    demo_ageComponents.push(text_demo_age);
+    demo_ageComponents.push(textbox);
+    demo_ageComponents.push(text_age_space);
+    demo_ageComponents.push(key_resp_age);
+    
+    demo_ageComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function demo_ageRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'demo_age' ---
+    // get current time
+    t = demo_ageClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *text_demo_age* updates
+    if (t >= 0.0 && text_demo_age.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text_demo_age.tStart = t;  // (not accounting for frame time here)
+      text_demo_age.frameNStart = frameN;  // exact frame index
+      
+      text_demo_age.setAutoDraw(true);
+    }
+    
+    
+    // *textbox* updates
+    if (t >= 0.0 && textbox.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      textbox.tStart = t;  // (not accounting for frame time here)
+      textbox.frameNStart = frameN;  // exact frame index
+      
+      textbox.setAutoDraw(true);
+    }
+    
+    
+    // *text_age_space* updates
+    if (t >= 0.0 && text_age_space.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text_age_space.tStart = t;  // (not accounting for frame time here)
+      text_age_space.frameNStart = frameN;  // exact frame index
+      
+      text_age_space.setAutoDraw(true);
+    }
+    
+    
+    // *key_resp_age* updates
+    if (t >= 0.5 && key_resp_age.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      key_resp_age.tStart = t;  // (not accounting for frame time here)
+      key_resp_age.frameNStart = frameN;  // exact frame index
+      
+      // keyboard checking is just starting
+      psychoJS.window.callOnFlip(function() { key_resp_age.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { key_resp_age.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { key_resp_age.clearEvents(); });
+    }
+    
+    if (key_resp_age.status === PsychoJS.Status.STARTED) {
+      let theseKeys = key_resp_age.getKeys({keyList: ['space'], waitRelease: false});
+      _key_resp_age_allKeys = _key_resp_age_allKeys.concat(theseKeys);
+      if (_key_resp_age_allKeys.length > 0) {
+        key_resp_age.keys = _key_resp_age_allKeys[_key_resp_age_allKeys.length - 1].name;  // just the last key pressed
+        key_resp_age.rt = _key_resp_age_allKeys[_key_resp_age_allKeys.length - 1].rt;
+        key_resp_age.duration = _key_resp_age_allKeys[_key_resp_age_allKeys.length - 1].duration;
+        // a response ends the routine
+        continueRoutine = false;
+      }
+    }
+    
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    demo_ageComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+      }
+    });
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function demo_ageRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'demo_age' ---
+    demo_ageComponents.forEach( function(thisComponent) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    });
+    psychoJS.experiment.addData('demo_age.stopped', globalClock.getTime());
+    psychoJS.experiment.addData('textbox.text',textbox.text)
+    // update the trial handler
+    if (currentLoop instanceof MultiStairHandler) {
+      currentLoop.addResponse(key_resp_age.corr, level);
+    }
+    psychoJS.experiment.addData('key_resp_age.keys', key_resp_age.keys);
+    if (typeof key_resp_age.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('key_resp_age.rt', key_resp_age.rt);
+        psychoJS.experiment.addData('key_resp_age.duration', key_resp_age.duration);
+        routineTimer.reset();
+        }
+    
+    key_resp_age.stop();
+    // the Routine "demo_age" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
 var instr_1MaxDurationReached;
 var _key_resp_instr_1_allKeys;
 var instr_1MaxDuration;
@@ -537,7 +905,7 @@ function loop_1_blockLoopBegin(loop_1_blockLoopScheduler, snapshot) {
       psychoJS: psychoJS,
       nReps: 1, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
-      trialList: '/Users/ashevelyova/Downloads/inc_brainrotexp/incon_stim.xlsx',
+      trialList: 'incon_stim.xlsx',
       seed: undefined, name: 'loop_1_block'
     });
     psychoJS.experiment.addLoop(loop_1_block); // add the loop to the experiment
