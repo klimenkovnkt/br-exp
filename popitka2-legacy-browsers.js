@@ -444,7 +444,7 @@ function instr_1RoutineEachFrame() {
     
     
     // *key_resp_instr_1* updates
-    if (t >= 0.5 && key_resp_instr_1.status === PsychoJS.Status.NOT_STARTED) {
+    if (t >= 0.52 && key_resp_instr_1.status === PsychoJS.Status.NOT_STARTED) {
       // keep track of start time/frame for later
       key_resp_instr_1.tStart = t;  // (not accounting for frame time here)
       key_resp_instr_1.frameNStart = frameN;  // exact frame index
