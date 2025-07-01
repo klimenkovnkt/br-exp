@@ -64,6 +64,9 @@ flowScheduler.add(loop_2_blocksLoopScheduler);
 flowScheduler.add(loop_2_blocksLoopEnd);
 
 
+flowScheduler.add(demo_memeRoutineBegin());
+flowScheduler.add(demo_memeRoutineEachFrame());
+flowScheduler.add(demo_memeRoutineEnd());
 flowScheduler.add(final_textRoutineBegin());
 flowScheduler.add(final_textRoutineEachFrame());
 flowScheduler.add(final_textRoutineEnd());
@@ -218,6 +221,9 @@ var image_2;
 var text_label_2;
 var key_resp_recognition;
 var text_instr_3;
+var demo_memeClock;
+var text_meme;
+var slider_meme;
 var final_textClock;
 var text_fin;
 var globalClock;
@@ -456,6 +462,31 @@ async function experimentInit() {
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
     depth: -3.0 
+  });
+  
+  // Initialize components for Routine "demo_meme"
+  demo_memeClock = new util.Clock();
+  text_meme = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_meme',
+    text: 'Знакомы ли Вам мемы в стиле "итальянский брейнрот"? (например, "бомбардиро крокодило" или "тралалело тралала")',
+    font: 'Open Sans',
+    units: undefined, 
+    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: 0.0 
+  });
+  
+  slider_meme = new visual.Slider({
+    win: psychoJS.window, name: 'slider_meme',
+    startValue: undefined,
+    size: [0.5, 0.05], pos: [0, (- 0.25)], ori: 0.0, units: psychoJS.window.units,
+    labels: ["\u0414\u0430", "\u041d\u0435\u0442", "\u041d\u0435 \u0443\u0432\u0435\u0440\u0435\u043d/\u0430"], fontSize: 0.05, ticks: [],
+    granularity: 1, style: ["RADIO"],
+    color: new util.Color('LightGray'), markerColor: new util.Color('Red'), lineColor: new util.Color('White'), 
+    opacity: undefined, fontFamily: 'Open Sans', bold: true, italic: false, depth: -1, 
+    flip: false,
   });
   
   // Initialize components for Routine "final_text"
@@ -1766,6 +1797,119 @@ function pic2RoutineEnd(snapshot) {
     
     key_resp_recognition.stop();
     // the Routine "pic2" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+var demo_memeMaxDurationReached;
+var demo_memeMaxDuration;
+var demo_memeComponents;
+function demo_memeRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'demo_meme' ---
+    t = 0;
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    demo_memeClock.reset();
+    routineTimer.reset();
+    demo_memeMaxDurationReached = false;
+    // update component parameters for each repeat
+    slider_meme.reset()
+    psychoJS.experiment.addData('demo_meme.started', globalClock.getTime());
+    demo_memeMaxDuration = null
+    // keep track of which components have finished
+    demo_memeComponents = [];
+    demo_memeComponents.push(text_meme);
+    demo_memeComponents.push(slider_meme);
+    
+    demo_memeComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function demo_memeRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'demo_meme' ---
+    // get current time
+    t = demo_memeClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *text_meme* updates
+    if (t >= 0.0 && text_meme.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text_meme.tStart = t;  // (not accounting for frame time here)
+      text_meme.frameNStart = frameN;  // exact frame index
+      
+      text_meme.setAutoDraw(true);
+    }
+    
+    
+    // *slider_meme* updates
+    if (t >= 0.0 && slider_meme.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      slider_meme.tStart = t;  // (not accounting for frame time here)
+      slider_meme.frameNStart = frameN;  // exact frame index
+      
+      slider_meme.setAutoDraw(true);
+    }
+    
+    
+    // Check slider_meme for response to end Routine
+    if (slider_meme.getRating() !== undefined && slider_meme.status === PsychoJS.Status.STARTED) {
+      continueRoutine = false; }
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    demo_memeComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+      }
+    });
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function demo_memeRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'demo_meme' ---
+    demo_memeComponents.forEach( function(thisComponent) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    });
+    psychoJS.experiment.addData('demo_meme.stopped', globalClock.getTime());
+    psychoJS.experiment.addData('slider_meme.response', slider_meme.getRating());
+    psychoJS.experiment.addData('slider_meme.rt', slider_meme.getRT());
+    // the Routine "demo_meme" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
     // Routines running outside a loop should always advance the datafile row
