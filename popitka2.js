@@ -1,4 +1,4 @@
-﻿/***************** 
+/***************** 
  * Popitka2 *
  *****************/
 
@@ -370,7 +370,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [null, 0.4],
+    size : [0.4, 0.4],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : 0.0 
@@ -441,7 +441,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [null, 0.4],
+    size : [0.4, 0.4],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : 0.0 
@@ -1010,7 +1010,7 @@ function loop_2_blocksLoopBegin(loop_2_blocksLoopScheduler, snapshot) {
       psychoJS: psychoJS,
       nReps: 1, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
-      trialList: '/Users/ashevelyova/Downloads/inc_brainrotexp/all_incongr_stim_list.xlsx',
+      trialList: 'all_incongr_stim_list.xlsx',
       seed: undefined, name: 'loop_2_blocks'
     });
     psychoJS.experiment.addLoop(loop_2_blocks); // add the loop to the experiment
