@@ -1716,7 +1716,7 @@ function pic2RoutineEachFrame() {
         key_resp_recognition.rt = _key_resp_recognition_allKeys[_key_resp_recognition_allKeys.length - 1].rt;
         key_resp_recognition.duration = _key_resp_recognition_allKeys[_key_resp_recognition_allKeys.length - 1].duration;
         // was this correct?
-        if (key_resp_recognition.keys == '@True_Ans_all') {
+        if (key_resp_recognition.keys == True_Ans_all) {
             key_resp_recognition.corr = 1;
         } else {
             key_resp_recognition.corr = 0;
@@ -1774,7 +1774,7 @@ function pic2RoutineEnd(snapshot) {
     psychoJS.experiment.addData('pic2.stopped', globalClock.getTime());
     // was no response the correct answer?!
     if (key_resp_recognition.keys === undefined) {
-      if (['None','none',undefined].includes('@True_Ans_all')) {
+      if (['None','none',undefined].includes(True_Ans_all)) {
          key_resp_recognition.corr = 1;  // correct non-response
       } else {
          key_resp_recognition.corr = 0;  // failed to respond (incorrectly)
