@@ -8,8 +8,18 @@
 // const { Scheduler } = util;
 
 // Временно закомментируйте и используйте прямой импорт для тестирования:
-import { PsychoJS, TrialHandler, MultiStairHandler, Scheduler } from './lib/psychojs-2024.2.4.js';
+// import { PsychoJS, TrialHandler, MultiStairHandler, Scheduler } from './lib/psychojs-2024.2.4.js';
+// Импортируем все как объект
+import * as psychojs from './lib/psychojs-2024.2.4.js';
 
+// Затем пробуем разные варианты доступа
+const PsychoJS = psychojs.PsychoJS || psychojs.default || psychojs.core?.PsychoJS;
+const TrialHandler = psychojs.TrialHandler || psychojs.data?.TrialHandler;
+const MultiStairHandler = psychojs.MultiStairHandler || psychojs.data?.MultiStairHandler; 
+const Scheduler = psychojs.Scheduler || psychojs.util?.Scheduler;
+
+// Если что-то не найдено, выведем в консоль для отладки
+console.log('Available exports:', Object.keys(psychojs));
 //import { core, data, sound, util, visual, hardware } from './lib/psychojs-2024.2.4.js';
 //const { PsychoJS } = core;
 //const { TrialHandler, MultiStairHandler } = data;
