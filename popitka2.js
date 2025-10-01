@@ -2,10 +2,18 @@
  * Popitka2 *
  *****************/
 
-import { core, data, sound, util, visual, hardware } from './lib/psychojs-2024.2.4.js';
-const { PsychoJS } = core;
-const { TrialHandler, MultiStairHandler } = data;
-const { Scheduler } = util;
+// import { core, data, sound, util, visual, hardware } from './lib/psychojs-2024.2.4.js';
+// const { PsychoJS } = core;
+// const { TrialHandler, MultiStairHandler } = data;
+// const { Scheduler } = util;
+
+// Временно закомментируйте и используйте прямой импорт для тестирования:
+import { PsychoJS, TrialHandler, MultiStairHandler, Scheduler } from './lib/psychojs-2024.2.4.js';
+
+//import { core, data, sound, util, visual, hardware } from './lib/psychojs-2024.2.4.js';
+//const { PsychoJS } = core;
+//const { TrialHandler, MultiStairHandler } = data;
+//const { Scheduler } = util;
 //some handy aliases as in the psychopy scripts;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 const { round } = util;
