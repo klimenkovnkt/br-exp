@@ -1941,40 +1941,6 @@ function final_textRoutineBegin(snapshot) {
     for (const thisComponent of final_textComponents)
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
-    
-    // Disable downloading results to browser
-    psychoJS._saveResults = 0;
-    
-    // Generate filename for results
-    let filename = psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
-    
-    // Extract data object from experiment
-    let dataObj = psychoJS._experiment._trialsData;
-    
-    // Convert data object to CSV
-    let csvData = [Object.keys(dataObj[0])].concat(dataObj).map(it => {
-        return Object.values(it).toString()
-    }).join('\n');
-    
-    // Send data to OSF via DataPipe
-    console.log('Saving data...');
-    fetch('https://pipe.jspsych.org/api/data', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            Accept: '*/*',
-        },   
-        body: JSON.stringify({
-            experimentID: '50EBZ8x3V63R', 
-            filename: filename, 
-            data: csvData, // используем переименованную переменную
-        }),
-    }).then(response => response.json()).then(responseData => { // переименовали data в responseData
-        // Log response and force experiment 
-        console.log(responseData);
-        quitPsychoJS();
-    });
-      
     return Scheduler.Event.NEXT;
   }
 }
